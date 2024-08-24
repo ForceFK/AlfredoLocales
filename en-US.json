@@ -1,0 +1,100 @@
+﻿{
+  "LanguageName": "English-US",
+  "LocalizedName": "en-US",
+  "LocalizationFlagEmoji": "🇺🇸",
+  "FallbackLanguage": "pt-BR",
+  "Authors": "ForceFK",
+  "Data": {
+    "Str": {
+      "None": "None",
+      "Unk": "Unknown",
+      "True": "True",
+      "False": "False",
+      "T": "T",
+      "F": "F",
+      "Message": "Message",
+      "Motive": "Motive",
+      "Channel": "Channel",
+      "Roles": "Roles",
+      "Playing": "Playing",
+      "Streaming": "Streaming",
+      "Listening": "Listening",
+      "Watching": "Watching",
+      "Competing": "Competing",
+      "CustomStatus": "Custom Status",
+      "Page": "Page",
+      "Online": "Online",
+      "Offline": "Offline",
+      "Title": "Title",
+      "Description": "Description",
+      "Color": "Color",
+      "Images": "Images",
+      "Image": "Image",
+      "Thumbnail": "Thumbnail",
+      "Author": "Author",
+      "Footer": "Footer",
+      "Send": "Send",
+      "Edit": "Edit",
+      "Delete": "Delete",
+      "CreatedAt": "Creation date",
+      "Members": "Members",
+      "Permissions": "Permissions",
+      "Position": "Position",
+      "GuildFeatures": "Server features",
+      "Owner": "Owner",
+      "Text": "Text",
+      "Voice": "Voice",
+      "Forum": "Forum",
+      "Thread": "Thread",
+      "Threads": "Threads",
+      "Mode": "Mode",
+      "Recommended": "Recommended",
+      "Personalize": "Personalize",
+      "RolesAdd": "Added roles",
+      "RolesRemoved": "Romoved roles",
+      "JumpToMessage": "Go to Message",
+      "UserInfo": "User Information",
+      "Sticker": "Sticker",
+      "DeleteMessage": "Delete Message",
+      "EmptyResult": "No results found."
+    },
+    "DiscordErrorCode": {
+      "MaximumStickersReached": "Maximum number of stickers reached (5)."
+    },
+    "CommandError": {
+      "UnknownCommand": "I didn't find any `{0}` commands.",
+      "UnknownInteractionCommand": "Oops, this command is under development...",
+      "ChannelNotFound": "The specified channel was not found!",
+      "UriInvalid": "Please enter a valid url!",
+      "AnotherUser0": "Oops, this command is from <@{0}>",
+      "NoPermViewChannel": "I don't have permission to view channel {0}.",
+      "NoPermWriteInChannel": "I don't have permission to send message on channel {0}.",
+      "InternalError": "An internal error occurred, report to the bot team.",
+      "InternalErrorBot": "An internal error occurred, please check my permissions."
+    },
+    "Rank": {
+      "UserIsBot": "{0} is a bot and therefore does not have a rank.",
+      "UserNoRank": "{0} does not yet have a rank.",
+      "YouNoRank": "You still don't have a rank, talk a little in some chat...",
+      "EmbedDescription": ":medal: **Rank position:** {0}º\n:star: **Level:** {1}",
+      "EmbedFieldProgress": ":arrow_up: Progress ({0}/{1} EXP)",
+      "YouLevelNextReward": "Your next reward will be at level {0}"
+    },
+    "Setup": {
+      "DisableModule": "Disable Module",
+      "EnableModule": "Activate Module",
+      "ConfigNull": "Activate the module to configure.",
+      "ModuleDisabled": "This module is not active.",
+      "ModuleSetupTip": "Use `/setup` to do the initial settings!"
+    },
+    "SetupAutorole": {},
+    "SetupLevels": {
+      "DefaultMessageRankUP": "GG {user.mention}, you have leveled up to **{level}**!"
+    },
+    "SetupLanguage": {
+      "Header": "SETUP | Default Server Language",
+      "EmbedDescription": "Default language for warnings without member interaction.\n\n**Examples** \nStandard warning that the member has passed a level.\nStandard entry/exit message.",
+      "Authors": "Authors: {0}"
+    }
+  }
+}
