@@ -64,7 +64,7 @@
       "UnknownInteractionCommand": "Oops, este comando está en desarrollo…",
       "ChannelNotFound": "¡El canal especificado no se encontró!",
       "UriInvalid": "¡Proporcione una URL válida!",
-      "AnotherUser0": "¡Oops, este comando pertenece a <@{0}>",
+      "AnotherUser": "¡Oops, este comando pertenece a <@{0}>",
       "NoPermViewChannel": "No tengo permiso para ver el canal {0}.",
       "NoPermWriteInChannel": "No tengo permiso para enviar mensajes en el canal {0}.",
       "InternalError": "Se produjo un error interno. Por favor, informe al equipo del bot.",

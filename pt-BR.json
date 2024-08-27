@@ -70,12 +70,14 @@
       "UnknownInteractionCommand": "Ops, este comando está em desenvolvimento...",
       "ChannelNotFound": "Canal informado não foi encontrado!",
       "UriInvalid": "Informe uma url válida!",
-      "AnotherUser0": "Opa, este comando é do <@{0}>",
+      "AnotherUser": "Opa, este comando é do <@{0}>",
       "NoPermViewChannel": "Eu não tenho permissão para ver canal {0}.",
       "NoPermWriteInChannel": "Eu não tenho permissão para enviar mensagem no canal {0}.",
       "InternalError": "Ocorreu um erro interno, reporte a equipe do bot.",
       "InternalErrorBot": "Ocorreu um erro interno, verifique as minhas permissões.",
-      "InvalidParams": "Parâmetros inválidos, verifique se você está usando o comando corretamente."
+      "InvalidParams": "Parâmetros inválidos, verifique se você está usando o comando corretamente.",
+      "RoleIsManaged": "Não é possível atribuir/remover um cargo de gerenciado a um usuário.",
+      "RoleIsEveryone": "O cargo Everyone não pode ser adicionado nem removido."
     },
     "UnmetPrecondition": {
       "NotAGuildErrorMessage": "Este comando só pode ser executado em grupos.",
@@ -85,12 +87,11 @@
       "RequiredBotKickMembers": "O bot precisa da permissão `Expulsar membros`.",
       "RequiredBotBanMembers": "O bot precisa da permissão `Banir membros`.",
       "RequiredBotManageMessages": "O bot precisa da permissão `Gerenciar mensagens`.",
-      "RequiredBotManageChannels": "O bot precisa da permissão `Gerenciar manais`.",
-      "RequiredBotSendManageMessages": "O bot precisa da permissão `Enviar mensagens` e `Gerenciar mensagens`.",
-      "RequiredBotManageMembers": "O bot precisa da permissão `Gerenciar membros`.",
+      "RequiredBotManageChannels": "O bot precisa da permissão `Gerenciar canais`.",
+      "RequiredBotSendManageMessages": "O bot precisa da permissão `Enviar Mensagens` e `Gerenciar mensagens`.",
       "RequiredBotModerateMembers": "O bot precisa da permissão `Membros de castigo`.",
 
-      "RequiredUserKickMembers": "Você não tem permissão para `Expulsar membros`.",
+      "RequiredUserKickMembers": "Você precisa da permissão `Expulsar membros`.",
       "RequiredUserBanMembers": "Você precisa da permissão `Banir membros`.",
       "RequiredUserManageGuild": "Você precisa da permissão `Gerenciar servidor`.",
       "RequiredUserManageMessages": "Você precisa da permissão `Gerenciar mensagens`.",
@@ -175,7 +176,6 @@
     },
     "Avatar": {
       "GlobalWarn": "Este usuário possui um avatar\npersonalizado no servidor.",
-      "GlobalWarn_Old": "ℹ Este usuário possui um avatar personalizado no servidor, clique [aqui]({0}) para abrir o original no navegador.",
       "BtnOpenExternal": "Abrir avatar no navegador"
     },
     "Banner": {
@@ -184,7 +184,7 @@
       "None": "Nenhum banner encontrado."
     },
     "Clear": {
-      "Count0": "Informe quantas mensagens irei apagar, exemplo ``{0}limpar 2``",
+      "Count0": "Informe quantas mensagens irei apagar, exemplo `{0}limpar 2`",
       "Success": "Pronto, deletei **{0}** mensagens.",
       "SuccessAuthor": "Pronto, deletei **{0}** mensagens do **{1}**.",
       "SuccessLimited": "**{0}** mensagens não puderam ser deletadas por serem enviadas a mais de **14 dias** ou estarem **fixadas**!"
@@ -206,7 +206,7 @@
       "OthersCount": "e outros {0}..."
     },
     "EmbedCreate": {
-      "HeaderContent": "[BETA] Criador de Embed",
+      "HeaderContent": "Criador de Embed",
       "DefaultTitle": "Personalize abaixo",
       "DefaultDescription": "Você precisa de pelo menos um campo de texto ou uma imagem!",
       "EditFields": "Editar Campos",
@@ -337,7 +337,6 @@
       "RemoveReward": "Remover uma recompensa",
       "RemoveAllRewards": "Remover TODAS recompensas",
       "ChangeRewardsSelectPlaceholder": "Selecione um cargo",
-      "RewardRoleIsManaged": "Não é possível atribuir um cargo de gerenciado.",
       "RewardBotRoleHierarchyLower": "Meu maior cargo é menor que o cargo escolhido!\nMova meu cargo de integração acima desse ou não poderei entregar aos usuários.",
       "RewardYouRoleHierarchyLower": "Seu maior cargo é menor que o cargo escolhido!\nVocê só pode atribuir cargos que você tenha permissão.",
       "RewardLevelRemoveAsk": "Qual nível deseja excluir a recompensa?",
@@ -372,7 +371,7 @@
     },
     "Report": {
       "RequiredUserMessage": "Apenas mensagens enviada por outros usuário podem ser reportadas.",
-      "MessageExceededLimitDate": "Você só pode reportar mensagens enviadas em até **15 dias**.",
+      "MessageExceededLimitDate": "Você só pode reportar mensagens enviadas em até **14 dias**.",
       "MessageEmpty": "Não é possível reportar mensagem sem conteúdo.",
       "WaitTime": "Você pode fazer um novo reporte {0}.",
       "AuthorInfo": "Informações do Autor",
@@ -428,7 +427,7 @@
       "Timeout600": "10 Minutos",
       "Timeout3600": "1 Hora",
       "Timeout86400": "1 Dia",
-      "Timeout604800": "7 dias",
+      "Timeout604800": "7 Dias",
       "Timeout1296000": "15 Dias",
       "Timeout2419199": "28 Dias"
     },
@@ -484,6 +483,9 @@
       "AddToGuildSuccess": "Figurinha adicionada",
       "AddToGuildSuccessResponse": ":white_check_mark: Figurinha **{0}** foi adicionada com sucesso ao grupo!",
       "IsLottie": "❌ Figurinhas nativas não são suportadas."
+    },
+    "Role": {
+      "AuditLogReason": "Solicitado por: {0}"
     }
   }
 }
