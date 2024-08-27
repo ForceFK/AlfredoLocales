@@ -485,7 +485,7 @@
       "IsLottie": "❌ Native stickers are not supported."
     },
     "Role": {
-      "AuditLogReason": "Solicitado por: {0}"
+      "AuditLogReason": "Requested by: {0}"
     }
   }
 }
