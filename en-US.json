@@ -359,7 +359,7 @@
     },
     "SetupLanguage": {
       "Header": "SETUP | Default Server Language",
-      "EmbedDescription": "Default language for warnings without member interaction.\n\n**Examples** \nStandard warning that the member has passed a level.\nStandard entry/exit message.",
+      "EmbedMainDescription": "Default language for warnings without member interaction.\n\n**Examples** \nStandard warning that the member has passed a level.\nStandard entry/exit message.",
       "Authors": "Authors: {0}"
     },
     "SetupReport": {
