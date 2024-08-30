@@ -60,10 +60,11 @@
       "Or": " ou ",
       "And": " e ",
       "WebHook": "WebHook",
-      "OpenInBrowser": "Abrir no navegador"
+      "OpenInBrowser": "Abrir no navegador",
+      "Content": "Conteúdo"
     },
     "DiscordErrorCode": {
-      "MaximumStickersReached": "Número máximo de figurinhas atingido (5)."
+      "MaximumStickersReached": "Número máximo de figurinhas atingido."
     },
     "CommandError": {
       "UnknownCommand": "Não encontrei nenhum comando `{0}`.",
@@ -76,8 +77,10 @@
       "InternalError": "Ocorreu um erro interno, reporte a equipe do bot.",
       "InternalErrorBot": "Ocorreu um erro interno, verifique as minhas permissões.",
       "InvalidParams": "Parâmetros inválidos, verifique se você está usando o comando corretamente.",
-      "RoleIsManaged": "Não é possível atribuir/remover um cargo de gerenciado a um usuário.",
-      "RoleIsEveryone": "O cargo Everyone não pode ser adicionado nem removido."
+      "RoleIsManaged": "Não é possível atribuir/remover um cargo gerenciado a um usuário.",
+      "RoleIsEveryone": "O cargo Everyone não pode ser adicionado nem removido.",
+      "RoleFoundUser": "{0} já possui o cargo {1}!",
+      "RoleNotFoundUser": "{0} não possui o cargo {1}!"
     },
     "UnmetPrecondition": {
       "NotAGuildErrorMessage": "Este comando só pode ser executado em grupos.",
@@ -485,7 +488,9 @@
       "IsLottie": "❌ Figurinhas nativas não são suportadas."
     },
     "Role": {
-      "AuditLogReason": "Solicitado por: {0}"
+      "AuditLogReason": "Solicitado por {0}|{1}",
+      "AddSuccess": "Cargo {0} foi adicionado ao {1}!",
+      "RemoveSuccess": "Cargo {0} foi removido do {1}!"
     }
   }
 }
