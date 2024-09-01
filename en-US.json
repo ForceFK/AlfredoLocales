@@ -60,10 +60,11 @@
       "Or": " or ",
       "And": " and ",
       "WebHook": "WebHook",
-      "OpenInBrowser": "Open in browser"
+      "OpenInBrowser": "Open in browser",
+      "Content": "Content"
     },
     "DiscordErrorCode": {
-      "MaximumStickersReached": "Maximum number of stickers reached (5)."
+      "MaximumStickersReached": "Maximum number of stickers reached."
     },
     "CommandError": {
       "UnknownCommand": "I didn't find any `{0}` commands.",
@@ -77,7 +78,9 @@
       "InternalErrorBot": "An internal error occurred, please check my permissions.",
       "InvalidParams": "Invalid parameters, check if you are using the command correctly.",
       "RoleIsManaged": "You cannot assign/remove a managed role to a user.",
-      "RoleIsEveryone": "The Everyone role cannot be added or removed."
+      "RoleIsEveryone": "The Everyone role cannot be added or removed.",
+      "RoleFoundUser": "{0} already has the role {1}!",
+      "RoleNotFoundUser": "{0} does not have role {1}!"
     },
     "UnmetPrecondition": {
       "NotAGuildErrorMessage": "This command cannot be used outside of a guild.",
@@ -97,7 +100,7 @@
       "RequiredUserManageMessages": "You need the permission `Manage Menssages`.",
       "RequiredUserManageChannels": "You need the permission `Manage Channels`.",
 
-      //Não tem modo automatico no handle de erro
+      
       "RequiredBotChannelAttachFiles": "The bot needs permission `Attach Files` on this channel.",
       "RequiredBotChannelEmbedLinks": "The bot needs permission `Embed Links` on this channel.",
       "RequiredBotChannelManageWebhooks": "The bot needs permission `Manage Webhooks` on this channel.",
@@ -105,7 +108,7 @@
       "RequiredBotChannelSendManageMessages": "The bot needs permission `Send Messages` and `Manage Menssages` on this channel."
 
     },
-    //https://discordnet.dev/api/Discord.GuildFeature.html
+    
     "Feature": {
       "AnimatedBanner": "`Animated Banner`",
       "AnimatedIcon": "`Animated Icon`",
@@ -485,7 +488,9 @@
       "IsLottie": "❌ Native stickers are not supported."
     },
     "Role": {
-      "AuditLogReason": "Requested by: {0}"
+      "AuditLogReason": "Requested by: {0}|{1}",
+      "AddSuccess": "Role {0} has been added to {1}!",
+      "RemoveSuccess": "Role {0} was removed from the {1}!"
     }
   }
 }
