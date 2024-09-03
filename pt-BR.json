@@ -285,10 +285,11 @@
       "YouNoRank": "Você ainda não possui um rank, converse um pouco em algum chat...",
       "EmbedDescription": ":medal: **Posição no Rank:** {0}º\n:star: **Nível:** {1}\n:speech_balloon: **Mensagens:** {2}",
       "EmbedFieldProgress": ":arrow_up: Progresso ({0}/{1} EXP)",
-      "YouLevelNextReward": "Sua próxima recompensa será no nível {0}",
-
-      "TitleGeneral": "Rank Geral",
-      "GeneralFild": "Nível: {0} -  Exp: {1}"
+      "YouLevelNextReward": "Sua próxima recompensa será no nível {0}"
+    },
+    "Leaderboard": {
+      "LevelsTitle": "Rank Geral",
+      "LevelsField": "Nível: {0} -  Exp: {1}"
     },
     "Setup": {
       "DisableModule": "Desativar Módulo",
@@ -355,6 +356,10 @@
       "DenyRolePlaceholder": "Qual cargo deseja adicionar/remover?",
       "DenyChannelPlaceholder": "Qual canal deseja adicionar/remover?",
       "DefaultMessageRankUP": "Parabéns {user.mention}, você subiu para o nível **{level}**!"
+    },
+    "SetupMemberCounter": {
+      "Header": "SETUP | Contator de Membros",
+      "EmbedMainDescription": null
     },
     "SetupVerification": {
       "Header": "SETUP | Verificação de Membros",

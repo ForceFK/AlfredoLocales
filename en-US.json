@@ -109,7 +109,7 @@
       "RequiredBotChannelSendManageMessages": "The bot needs permission `Send Messages` and `Manage Menssages` on this channel."
 
     },
-    
+
     "Feature": {
       "AnimatedBanner": "`Animated Banner`",
       "AnimatedIcon": "`Animated Icon`",
@@ -285,10 +285,11 @@
       "YouNoRank": "You still don't have a rank, talk a little in some chat...",
       "EmbedDescription": ":medal: **Position Rank:** {0}º\n:star: **Level:** {1}\n:speech_balloon: **Menssage:** {2}",
       "EmbedFieldProgress": ":arrow_up: Progress ({0}/{1} EXP)",
-      "YouLevelNextReward": "Your next reward will be at level {0}",
-
-      "TitleGeneral": "General Rank",
-      "GeneralFild": "Level: {0} -  Exp: {1}"
+      "YouLevelNextReward": "Your next reward will be at level {0}"
+    },
+    "Leaderboard": {
+      "LevelsTitle": "Leaderboard Levels",
+      "LevelsField": "Level: {0} -  Exp: {1}"
     },
     "Setup": {
       "DisableModule": "Disable Module",
@@ -355,6 +356,10 @@
       "DenyRolePlaceholder": "Which position do you want to add/remove?",
       "DenyChannelPlaceholder": "Which channel do you want to add/remove?",
       "DefaultMessageRankUP": " GG {user.mention}, you have leveled up to **{level}**!"
+    },
+    "SetupMemberCounter": {
+      "Header": "SETUP | Member Counter",
+      "EmbedMainDescription": null
     },
     "SetupVerification": {
       "Header": "SETUP | Verification Members",
