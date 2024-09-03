@@ -288,7 +288,7 @@
       "YouLevelNextReward": "Your next reward will be at level {0}"
     },
     "Leaderboard": {
-      "LevelsTitle": "Leaderboard Levels",
+      "LevelsTitle": "Leaderboard Levels | Page {0}",
       "LevelsField": "Level: {0} -  Exp: {1}"
     },
     "Setup": {
