@@ -91,8 +91,9 @@
       "RequiredBotBanMembers": "O bot precisa da permissão `Banir membros`.",
       "RequiredBotManageMessages": "O bot precisa da permissão `Gerenciar mensagens`.",
       "RequiredBotManageChannels": "O bot precisa da permissão `Gerenciar canais`.",
-      "RequiredBotSendManageMessages": "O bot precisa da permissão `Enviar Mensagens` e `Gerenciar mensagens`.",
+      "RequiredBotManageRoles": "O bot precisa da permissão `Gerenciar cargos`.",
       "RequiredBotModerateMembers": "O bot precisa da permissão `Membros de castigo`.",
+      "RequiredBotSendManageMessages": "O bot precisa da permissão `Enviar Mensagens` e `Gerenciar mensagens`.",
 
       "RequiredUserKickMembers": "Você precisa da permissão `Expulsar membros`.",
       "RequiredUserBanMembers": "Você precisa da permissão `Banir membros`.",

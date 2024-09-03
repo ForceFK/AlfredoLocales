@@ -91,8 +91,9 @@
       "RequiredBotBanMembers": "The bot needs the permission `Ban Members`.",
       "RequiredBotManageMessages": "The bot needs the permission `Manage Messages`.",
       "RequiredBotManageChannels": "The bot needs the permission `Manage Channels`.",
-      "RequiredBotSendManageMessages": "The bot needs the permission `Send Messages` and `Manage Messages`.",
+      "RequiredBotManageRoles": "The bot needs the permission `Manage Roles`.",
       "RequiredBotModerateMembers": "The bot needs the permission `Timeout Members`.",
+      "RequiredBotSendManageMessages": "The bot needs the permission `Send Messages` and `Manage Messages`.",
 
       "RequiredUserKickMembers": "You need the permission `Kick Members`.",
       "RequiredUserBanMembers": "You need the permission `Ban Members`.",
@@ -100,7 +101,7 @@
       "RequiredUserManageMessages": "You need the permission `Manage Menssages`.",
       "RequiredUserManageChannels": "You need the permission `Manage Channels`.",
 
-      
+
       "RequiredBotChannelAttachFiles": "The bot needs permission `Attach Files` on this channel.",
       "RequiredBotChannelEmbedLinks": "The bot needs permission `Embed Links` on this channel.",
       "RequiredBotChannelManageWebhooks": "The bot needs permission `Manage Webhooks` on this channel.",
