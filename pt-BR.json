@@ -109,6 +109,67 @@
       "RequiredBotChannelSendManageMessages": "O bot precisa da permissão `Enviar mensagens` e `Gerenciar mensagens` neste canal."
 
     },
+    //https://discord.com/developers/docs/topics/permissions#permissions
+    "Permission": {
+      "ViewChannel": "Ver canais",
+      "ManageChannels": "Gerenciar canais",
+      "ManageRoles": "Gerenciar cargos",
+      "CreateGuildExpressions": "Criar expressões",
+      "ManageEmojisAndStickers": "Gerenciar expressões",
+      "ViewAuditLog": "Ver o registro de autoria",
+      "ViewGuildInsights": "Ver Análises do servidor",
+      "ManageWebhooks": "Gerenciar webhooks",
+      "ManageGuild": "Gerenciar servidor",
+
+      "CreateInstantInvite": "Criar convite",
+      "ChangeNickname": "Alterar apelido",
+      "ManageNicknames": "Gerenciar apelidos",
+      "KickMembers": "Expulsar membros",
+      "BanMembers": "Banir membros",
+      "ModerateMembers": "Membros de castigo",
+
+      "SendMessages": "Enviar mensagens",
+      "SendMessagesInThreads": "Enviar mensagens em tópicos",
+      "CreatePublicThreads": "Criar tópicos públicos",
+      "CreatePrivateThreads": "Criar tópicos privados",
+      "EmbedLinks": "Inserir links",
+      "AttachFiles": "Anexar arquivos",
+      "AddReactions": "Adicionar reações",
+      "UseExternalEmojis": "Usar emojis externos",
+      "UseExternalStickers": "Usar figurinhas externas",
+      "MentionEveryone": "Mencionar everyone, here e todos os cargos",
+      "ManageMessages": "Gerenciar mensagens",
+      "ManageThreads": "Gerenciar tópicos",
+      "ReadMessageHistory": "Ver histórico de mensagens",
+      "SendTTSMessages": "Enviar mensagens em Texto-para-voz",
+      "SendVoiceMessages": "Enviar mensagens de voz",
+      "SendPolls": "Criar Enquetes",
+
+      "Connect": "Conectar",
+      "Speak": "Falar",
+      "Stream": "Vídeo",
+      "UseSoundboard": "Usar efeitos sonoros",
+      //USE_EXTERNAL_SOUNDS
+      "UseVAD": "Usar Detecção de voz",
+      "PrioritySpeaker": "Voz prioritária",
+      "MuteMembers": "Silenciar membros",
+      "DeafenMembers": "Ensurdecer membros",
+      "MoveMembers": "Mover membros",
+      "SetVoiceChannelStatus": "Definir status do canal de voz",
+
+      "UseApplicationCommands": "Usar comandos de aplicativos",
+      "StartEmbeddedActivities": "Usar atividades",
+      "UseExternalApps": "Utilize Aplicativos Externos",
+
+      "RequestToSpeak": "Pedir para falar",
+
+      //CREATE_EVENTS
+      "ManageEvents": "Gerenciar eventos",
+
+      "Administrator": "Administrador",
+
+      "?ViewMonetizationAnalytics": null
+    },
     //https://discordnet.dev/api/Discord.GuildFeature.html
     "Feature": {
       "AnimatedBanner": "`Banner Animado`",

@@ -110,6 +110,67 @@
 
     },
 
+    "Permission": {
+      "ViewChannel": "View Channels",
+      "ManageChannels": "Manage Channels",
+      "ManageRoles": "Manage Roles",
+      "CreateGuildExpressions": "Create Expressions",
+      "ManageEmojisAndStickers": "Manage Expressions",
+      "ViewAuditLog": "View Audit Log",
+      "ViewGuildInsights": "View Server Insights",
+      "ManageWebhooks": "Manage Webhooks",
+      "ManageGuild": "Manage Server",
+
+      "CreateInstantInvite": "Create Invite",
+      "ChangeNickname": "Alterar Nickname",
+      "ManageNicknames": "Manage Nicknames",
+      "KickMembers": "Kick Members",
+      "BanMembers": "Ban Members",
+      "ModerateMembers": "Timeout Members",
+
+      "SendMessages": "Send Messages",
+      "SendMessagesInThreads": "Send Messages in Threads",
+      "CreatePublicThreads": "Create Public Threads",
+      "CreatePrivateThreads": "Create Private Threads",
+      "EmbedLinks": "Embed Links",
+      "AttachFiles": "Attach Files",
+      "AddReactions": "Add Reactions",
+      "UseExternalEmojis": "UseExternal Emoji",
+      "UseExternalStickers": "Use External Stickers",
+      "MentionEViewyone": "Mention everyone, here and All Roles",
+      "ManageMessages": "Manage Messages",
+      "ManageThreads": "Manage Threads",
+      "ReadMessageHistory": "Read Message History",
+      "SendTTSMessages": "Send Text-to-Speech Messages",
+      "SendVoiceMessages": "Send Voice Messages",
+      "SendPolls": "Create Polls",
+
+      "Connect": "Connect",
+      "Speak": "Speak",
+      "Stream": "Video",
+      "UseSoundboard": "Use Soundboard",
+      //USE_EXTERNAL_SOUNDS
+      "UseVAD": "Use Voice Activity",
+      "PrioritySpeaker": "Priority Speaker",
+      "MuteMembers": "Mute Members",
+      "DeafenMembers": "Deafen Members",
+      "MoveMembers": "Move Members",
+      "SetVoiceChannelStatus": "Set Voice Channel Status",
+
+      "UseApplicationCommands": "Use Application Commands",
+      "StartEmbeddedActivities": "Use Activities",
+      "UseExternalApps": "Use External Apps",
+
+      "RequestToSpeak": "Request to Speak",
+
+      //CREATE_EVENTS
+      "ManageEvents": "Manage Events",
+
+      "Administrator": "Administrator",
+
+      "?ViewMonetizationAnalytics": null
+    },
+
     "Feature": {
       "AnimatedBanner": "`Animated Banner`",
       "AnimatedIcon": "`Animated Icon`",
