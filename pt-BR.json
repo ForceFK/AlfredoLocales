@@ -87,6 +87,11 @@
       "RequireOwner": "Este comando só pode ser executado pelo proprietário do bot.",
       "RequireOwnerTeam": "Este comando só pode ser executado pela equipe do bot.",
 
+      "PermissionBot": "O bot precisa das seguintes permissões para executar o comando:\n{0}",
+      "PermissionBotChannel": "O bot precisa das seguintes permissões neste canal para executar o comando:\n{0}",
+      "PermissionUser": "Você precisa ter as seguintes permissões para executar o comando:\n{0}",
+      "PermissionUserChannel": "Você precisa ter as seguintes permissões neste canal para executar o comando:\n{0}",
+
       "RequiredBotKickMembers": "O bot precisa da permissão `Expulsar membros`.",
       "RequiredBotBanMembers": "O bot precisa da permissão `Banir membros`.",
       "RequiredBotManageMessages": "O bot precisa da permissão `Gerenciar mensagens`.",
