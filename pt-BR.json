@@ -80,10 +80,11 @@
       "RoleIsManaged": "Não é possível atribuir/remover um cargo gerenciado a um usuário.",
       "RoleIsEveryone": "O cargo Everyone não pode ser adicionado nem removido.",
       "RoleFoundUser": "{0} já possui o cargo {1}!",
-      "RoleNotFoundUser": "{0} não possui o cargo {1}!"
+      "RoleNotFoundUser": "{0} não possui o cargo {1}!",
+      "UserNotFoundInGuild": "Membro não encontrado no servidor."
     },
     "UnmetPrecondition": {
-      "NotAGuildErrorMessage": "Este comando só pode ser executado em grupos.",
+      "NotAGuildErrorMessage": "Este comando só pode ser executado em servidores.",
       "RequireOwner": "Este comando só pode ser executado pelo proprietário do bot.",
       "RequireOwnerTeam": "Este comando só pode ser executado pela equipe do bot.",
 
@@ -173,7 +174,8 @@
 
       "Administrator": "Administrador",
 
-      "?ViewMonetizationAnalytics": null
+      "?ViewMonetizationAnalytics": null,
+      "UseClydeAI": "Usar Clyde"
     },
     //https://discordnet.dev/api/Discord.GuildFeature.html
     "Feature": {
@@ -242,7 +244,8 @@
       "DiscordID": "Discord ID:",
       "Roles": "Cargos ({0}):",
       "ButtonAvatar": "Ver avatar",
-      "IsTimeOuted": "Remoção do castigo:"
+      "IsTimeOuted": "Remoção do castigo:",
+      "ButtonLevels": "Ver rank"
     },
     "Avatar": {
       "GlobalWarn": "Este usuário possui um avatar\npersonalizado no servidor.",
