@@ -56,9 +56,16 @@
       "UserInfo": "Información del usuario",
       "Sticker": "Sticker",
       "DeleteMessage": "Eliminar mensaje",
-      "EmptyResult": "No se encontraron resultados."
+      "EmptyResult": "No se encontraron resultados.",
+      "Or": " o ",
+      "And": " y ",
+      "WebHook": "WebHook",
+      "OpenInBrowser": "Abrir en el navegador",
+      "Content": "Contenido"
     },
-    "Common": {},
+    "DiscordErrorCode": {
+      "MaximumStickersReached": "Número máximo de stickers alcanzadas."
+    },
     "CommandError": {
       "UnknownCommand": "No encontré ningún comando `{0}`.",
       "UnknownInteractionCommand": "Oops, este comando está en desarrollo…",
@@ -68,7 +75,85 @@
       "NoPermViewChannel": "No tengo permiso para ver el canal {0}.",
       "NoPermWriteInChannel": "No tengo permiso para enviar mensajes en el canal {0}.",
       "InternalError": "Se produjo un error interno. Por favor, informe al equipo del bot.",
-      "InternalErrorBot": "Se produjo un error interno. Verifique mis permisos."
+      "InternalErrorBot": "Se produjo un error interno. Verifique mis permisos.",
+      "InvalidParams": "Parámetros no válidos, verifique si está utilizando el comando correctamente.",
+      "RoleIsManaged": "No se puede asignar o eliminar un rol administrado a un usuario.",
+      "RoleIsEveryone": "La rol Everyone no se puede asignar ni eliminar.",
+      "RoleFoundUser": "¡{0} ya tiene el rol {1}!",
+      "RoleNotFoundUser": "¡{0} no tiene el rol {1}!",
+      "UserNotFoundInGuild": "Miembro no encontrado en el servidor."
+    },
+    "UnmetPrecondition": {
+      "NotAGuildErrorMessage": "Este comando solo se puede ejecutar en servidores.",
+      "RequireOwner": "Este comando solo puede ser ejecutado por el propietario del bot.",
+      "RequireOwnerTeam": "Este comando solo puede ser ejecutado por el equipo del bot.",
+
+      "PermissionBot": "El bot necesita los siguientes permisos para ejecutar el comando:\n{0}",
+      "PermissionBotChannel": "El bot necesita los siguientes permisos en este canal para ejecutar el comando:\n{0}",
+      "PermissionUser": "Debe tener los siguientes permisos para ejecutar el comando:\n{0}",
+      "PermissionUserChannel": "Debe tener los siguientes permisos en este canal para ejecutar el comando:\n{0}"
+    },
+
+    "Permission": {
+      "ViewChannel": "Ver canales",
+      "ManageChannels": "Gestionar canales",
+      "ManageRoles": "Gestionar roles",
+      "CreateGuildExpressions": "Crear expresiones",
+      "ManageEmojisAndStickers": "Gestionar expresiones",
+      "ViewAuditLog": "Ver el registro de auditoría",
+      "ViewGuildInsights": "Ver información del servidor",
+      "ManageWebhooks": "Gestionar webhooks",
+      "ManageGuild": "Gestionar servidor",
+
+      "CreateInstantInvite": "Crear invitación",
+      "ChangeNickname": "Alterar apodos",
+      "ManageNicknames": "Gestionar apodos",
+      "KickMembers": "Expulsar miembros",
+      "BanMembers": "Banear miembros",
+      "ModerateMembers": "Aislar temporalmente a miembros",
+
+      "SendMessages": "Enviar mensajes",
+      "SendMessagesInThreads": "Enviar mensajes en hilos",
+      "CreatePublicThreads": "Crear hilos públicos",
+      "CreatePrivateThreads": "Crear hilos privados",
+      "EmbedLinks": "Insertar enlaces",
+      "AttachFiles": "Adjuntar archivos",
+      "AddReactions": "Añadir reacciones",
+      "UseExternalEmojis": "Usar emojis externos",
+      "UseExternalStickers": "Usar stickers externos",
+      "MentionEveryone": "Mencionar a everyone, here y todos los roles",
+      "ManageMessages": "Gestionar mensajes",
+      "ManageThreads": "Gestionar hilos",
+      "ReadMessageHistory": "Leer historial de mensajes",
+      "SendTTSMessages": "Enviar mensajes de texto a voz",
+      "SendVoiceMessages": "Enviar mensajes de voz",
+      "SendPolls": "Crear encuestas",
+
+      "Connect": "Conectar",
+      "Speak": "Hablar",
+      "Stream": "Vídeo",
+      "UseSoundboard": "Usar panel de sonidos",
+      //USE_EXTERNAL_SOUNDS
+      "UseVAD": "Usar Actividad de voz",
+      "PrioritySpeaker": "Prioridad de palabra",
+      "MuteMembers": "Silenciar miembros",
+      "DeafenMembers": "Ensordecer miembros",
+      "MoveMembers": "Mover miembros",
+      "SetVoiceChannelStatus": "Establece un estado del canal de voz",
+
+      "UseApplicationCommands": "Usar comandos de aplicaciones",
+      "StartEmbeddedActivities": "Usar Actividades",
+      "UseExternalApps": "Usar aplicaciones externas",
+
+      "RequestToSpeak": "Solicitar hablar",
+
+      //CREATE_EVENTS
+      "ManageEvents": "Gestionar eventos",
+
+      "Administrator": "Administrador",
+
+      "?ViewMonetizationAnalytics": null,
+      "UseClydeAI": "Usar Clyde"
     }
   }
 }
