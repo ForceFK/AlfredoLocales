@@ -365,7 +365,7 @@
       "EnableModule": "Ativar Módulo",
       "ConfigNull": "Ative o módulo para configurar.",
       "ModuleDisabled": "Este módulo não está ativo.",
-      "ModuleSetupTip": "Utilize `/setup` para fazer as configurações iniciais!"
+      "ModuleSetupTip": "Utilize </setup:1115530195387023371> para fazer as configurações iniciais!"
     },
     "SetupAutorole": {},
     "SetupLevels": {
@@ -438,7 +438,8 @@
     "SetupLanguage": {
       "Header": "SETUP | Idioma Padrão do Servidor",
       "EmbedMainDescription": "Idioma padrão para avisos sem interação de um membro.\n\n**Exemplos** \nAviso padrão que o membro passou de nível.\nMensagem padrão de entradas/saídas.",
-      "Authors": "Autores: {0}"
+      "Authors": "Autores: {0}",
+      "SysWarnAutoSet": "**SISTEMA:**\nIdioma padrão do servidor foi definido automaticamente como `{0}`\nAltere em </setup:1115530195387023371> no modulo `Idioma Padrão do Servidor`"
     },
     "SetupReport": {
       "Header": "SETUP | Reporte de Mensagens",
