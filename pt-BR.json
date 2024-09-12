@@ -64,6 +64,7 @@
       "Content": "Conteúdo"
     },
     "DiscordErrorCode": {
+      "InsufficientPermissions": "O bot **não tem as permissões** necessárias para executar esse comando.",
       "MaximumStickersReached": "Número máximo de figurinhas atingido."
     },
     "CommandError": {
@@ -74,8 +75,7 @@
       "AnotherUser": "Opa, este comando é do <@{0}>",
       "NoPermViewChannel": "Eu não tenho permissão para ver canal {0}.",
       "NoPermWriteInChannel": "Eu não tenho permissão para enviar mensagem no canal {0}.",
-      "InternalError": "Ocorreu um erro interno, reporte a equipe do bot.",
-      "InternalErrorBot": "Ocorreu um erro interno, verifique as minhas permissões.",
+      "InternalError": "Ocorreu um erro interno, reporte a equipe do bot.\n-# Código: `{0}`",
       "InvalidParams": "Parâmetros inválidos, verifique se você está usando o comando corretamente.",
       "RoleIsManaged": "Não é possível atribuir/remover um cargo gerenciado a um usuário.",
       "RoleIsEveryone": "O cargo Everyone não pode ser adicionado nem removido.",

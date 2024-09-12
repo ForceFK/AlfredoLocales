@@ -64,6 +64,7 @@
       "Content": "Content"
     },
     "DiscordErrorCode": {
+      "InsufficientPermissions": "The bot **does not have the necessary permissions** to execute this command.",
       "MaximumStickersReached": "Maximum number of stickers reached."
     },
     "CommandError": {
@@ -74,8 +75,7 @@
       "AnotherUser": "Oops, this command is from <@{0}>",
       "NoPermViewChannel": "I don't have permission to view channel {0}.",
       "NoPermWriteInChannel": "I don't have permission to send message on channel {0}.",
-      "InternalError": "An internal error occurred, report to the bot team.",
-      "InternalErrorBot": "An internal error occurred, please check my permissions.",
+      "InternalError": "An internal error occurred, report to the bot team.\n-# Code: `{0}`",
       "InvalidParams": "Invalid parameters, check if you are using the command correctly.",
       "RoleIsManaged": "You cannot assign/remove a managed role to a user.",
       "RoleIsEveryone": "The Everyone role cannot be added or removed.",

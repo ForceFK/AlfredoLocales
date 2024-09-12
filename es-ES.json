@@ -64,6 +64,7 @@
       "Content": "Contenido"
     },
     "DiscordErrorCode": {
+      "InsufficientPermissions": "El bot **no tiene los permisos necesarios** para ejecutar este comando.",
       "MaximumStickersReached": "Número máximo de stickers alcanzadas."
     },
     "CommandError": {
@@ -74,8 +75,7 @@
       "AnotherUser": "¡Oops, este comando pertenece a <@{0}>",
       "NoPermViewChannel": "No tengo permiso para ver el canal {0}.",
       "NoPermWriteInChannel": "No tengo permiso para enviar mensajes en el canal {0}.",
-      "InternalError": "Se produjo un error interno. Por favor, informe al equipo del bot.",
-      "InternalErrorBot": "Se produjo un error interno. Verifique mis permisos.",
+      "InternalError": "Se produjo un error interno. Por favor, informe al equipo del bot.\n-# Code: `{0}`",
       "InvalidParams": "Parámetros no válidos, verifique si está utilizando el comando correctamente.",
       "RoleIsManaged": "No se puede asignar o eliminar un rol administrado a un usuario.",
       "RoleIsEveryone": "La rol Everyone no se puede asignar ni eliminar.",
