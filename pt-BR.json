@@ -174,7 +174,7 @@
 
       "Administrator": "Administrador",
 
-      "?ViewMonetizationAnalytics": null,
+      "ViewMonetizationAnalytics": "Ver Análises de monetização",
       "UseClydeAI": "Usar Clyde"
     },
     //https://discordnet.dev/api/Discord.GuildFeature.html
