@@ -80,12 +80,18 @@
       "RoleIsManaged": "You cannot assign/remove a managed role to a user.",
       "RoleIsEveryone": "The Everyone role cannot be added or removed.",
       "RoleFoundUser": "{0} already has the role {1}!",
-      "RoleNotFoundUser": "{0} does not have role {1}!"
+      "RoleNotFoundUser": "{0} does not have role {1}!",
+      "UserNotFoundInGuild": "Member not found on server."
     },
     "UnmetPrecondition": {
       "NotAGuildErrorMessage": "This command cannot be used outside of a guild.",
       "RequireOwner": "This command can only be executed by the bot owner.",
       "RequireOwnerTeam": "This command can only be executed by the bot team.",
+
+      "PermissionBot": "The bot needs the following permissions to execute the command:\n{0}",
+      "PermissionBotChannel": "The bot needs the following permissions on this channel to execute the command:\n{0}",
+      "PermissionUser": "You needs the following permissions to execute the command:\n{0}",
+      "PermissionUserChannel": "You needs the following permissions on this channel to execute the command:\n{0}",
 
       "RequiredBotKickMembers": "The bot needs the permission `Kick Members`.",
       "RequiredBotBanMembers": "The bot needs the permission `Ban Members`.",
@@ -238,7 +244,8 @@
       "DiscordID": "Discord ID:",
       "Roles": "Roles ({0}):",
       "ButtonAvatar": "View avatar",
-      "IsTimeOuted": "Remove timeout:"
+      "IsTimeOuted": "Remove timeout:",
+      "ButtonLevels": "View rank"
     },
     "Avatar": {
       "GlobalWarn": "This user has avatar\npersonalized on the server.",
@@ -358,7 +365,7 @@
       "EnableModule": "Activate Module",
       "ConfigNull": "Activate the module to configure.",
       "ModuleDisabled": "This module is not active.",
-      "ModuleSetupTip": "Use `/setup` to do the initial settings!"
+      "ModuleSetupTip": "Use </setup:1115530195387023371> to do the initial settings!"
     },
     "SetupAutorole": {},
     "SetupLevels": {
@@ -431,7 +438,8 @@
     "SetupLanguage": {
       "Header": "SETUP | Default Server Language",
       "EmbedMainDescription": "Default language for warnings without member interaction.\n\n**Examples** \nStandard warning that the member has passed a level.\nStandard entry/exit message.",
-      "Authors": "Authors: {0}"
+      "Authors": "Authors: {0}",
+      "SysWarnAutoSet": "**SYSTEM:**\nThe server's default language was automatically set to `{0}`\nPlease change it in </setup:1115530195387023371> in the `Default Guild Language` module"
     },
     "SetupReport": {
       "Header": "SETUP | Report Menssage",
@@ -534,7 +542,7 @@
     },
     "Giveaway": {
       "TitleNumbers": "Number Draw",
-      "TitleNames": "Name Draw",
+      "TitleNames": "Names Draw",
       "Result": "Draw Result:",
       "Quantity": "Number of results:",
       "QuantityPlaceholder": "1 a 100",
@@ -543,7 +551,7 @@
       "Comma": "comma",
       "NewLine": "line break (Enter)",
       "InvalidConfigNumbers": "The numbers available for draw are smaller than the quantity, if you prefer, activate repetition or adjust the min and max.",
-      "DescriptionNumbers": "Númbers: `{0}` a `{1}`\nquantity of results: `{2}`\nYou can repeat numbers: `{3}`",
+      "DescriptionNumbers": "Númbers: `{0}` a `{1}`\nQuantity of results: `{2}`\nYou can repeat numbers: `{3}`",
       "ItemsNames": "Items:",
       "ItemsNamesPlaceholder": "Write here the items you would like to draw, separated by {0}.",
       "DescriptionNames": "Quantity of results: `{0}`\nYou can repeat: `{1}`\nSeparation criteria: {2}"
