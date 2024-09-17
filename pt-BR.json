@@ -61,7 +61,9 @@
       "And": " e ",
       "WebHook": "WebHook",
       "OpenInBrowser": "Abrir no navegador",
-      "Content": "Conteúdo"
+      "Content": "Conteúdo",
+      "ChangeMessage": "Alterar Mensagem",
+      "ShowVariables": "Variáveis Disponíveis"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "O bot **não tem as permissões** necessárias para executar esse comando.",
@@ -401,8 +403,7 @@
       "RateSelectVeryEasyEXP": "Fácil passar de nível",
       "RateSelectDoubleEXP": "O dobro do XP base",
       "XPBaseInfo": "XP base: 15 até 25 (aleatório)",
-      "MessageVariables": "`{user.mention}` - Menciona o usuário\n`{user.id}` - ID do usuário\n`{user}` - Apelido do usuário no servidor ou o nome de exibição\n`{level}` - Nível atual\n`{next.level}` - Próximo nível\n`{xp}` - Experiência atual\n`{rank.pos}` - Posição atual no rank do servidor\n`{next.level.xp}` - Experiência total para o próximo nível\n`{next.level.xp.required}` - Experiência faltante para o próximo nível\n`{messages}` - Número de mensagens que geraram experiência",
-      "ShowVariables": "Variáveis Disponíveis",
+      "MessageVariables": "`{user}` - Apelido do usuário no servidor ou o nome de exibição\n`{user.mention}` - Menciona o usuário\n`{user.id}` - ID do usuário\n`{level}` - Nível atual\n`{next.level}` - Próximo nível\n`{xp}` - Experiência atual\n`{rank.pos}` - Posição atual no rank do servidor\n`{next.level.xp}` - Experiência total para o próximo nível\n`{next.level.xp.required}` - Experiência faltante para o próximo nível\n`{messages}` - Número de mensagens que geraram experiência",
       "ChangeChannel": "Alterar Canal",
       "ChangeMessage": "Personalizar Mensagem",
       "HeaderRewards": "Níveis por Experiências > Recompensas",
@@ -444,6 +445,24 @@
     "SetupReport": {
       "Header": "SETUP | Reporte de Mensagens",
       "EmbedMainDescription": "Este módulo permitirá que os membros do servidor possam reportar mensagens suspeitas para a equipe de moderação analisar de maneira simples e rápida.\nSe tudo estiver configurado corretamente, uma mensagem será enviada no canal escolhido abaixo e o moderador poderá tomar as ações que julgar adequadas.\n\n**Como configurar?**\n1. Crie um Canal de texto **privado**.\n`Nesse canal será postado os reportes feito pelos membros do servidor.`\n`Permita apenas que sua equipe de moderadores acesse o canal.`\n`Recomendado ativar restrição de idade no canal (NSFW).`\n2. Selecione o canal criado no seletor abaixo.\n3. Ative o módulo.\n\n**Como reportar?**\n1. No computador, clique com o botão direito sobre uma mensagem, no celular, toque e segure sobre uma mensagem.\n2. Vá na opção **Apps** e selecione **Reportar Mensagem**."
+    },
+    "SetupMJoinLeave": {
+      "Header": "SETUP | Entrada/Saída de Membros",
+      "HeaderJoin": "SETUP | Entrada de Membros",
+      "HeaderLeave": "SETUP | Saída de Membros",
+      "EmbedMainDescription": "Alfredo enviará uma mensagem quando um membro entrar ou sair do servidor.",
+      "FieldJoinMessage": "Mensagem de entrada",
+      "FieldLeaveMessage": "Mensagem de saída",
+      "JoinButton": "Entrada de Membros",
+      "LeaveButton": "Saída de Membros",
+      "JoinDefaultMessage": "{user.mention} entrou no servidor!",
+      "LeaveDefaultMessage": "{user.mention} saiu do servidor!",
+      "ShowUserInfoButton": "Botão Informações do Usuário",
+      "TestCommand": "Testar",
+      "MessageFormated": "Mensagem Formatada",
+      "Enable": "Ativar Função",
+      "Disable": "Desativar Função",
+      "MessageVariables": "`{user}` - Nome de exibição do usuário\n`{user.mention}` - Menciona o usuário\n`{user.id}` - ID do usuário\n`{guild}` - Nome do servidor\n`{guild.members}` - Número de membros no servidor"
     },
     "YouTube": {
       "NoResults": "Nenhum resultado encontrado."

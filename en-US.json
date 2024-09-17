@@ -3,7 +3,7 @@
   "LocalizedName": "en-US",
   "LocalizationFlagEmoji": "🇺🇸",
   "FallbackLanguage": "pt-BR",
-  "Authors": "Lunoxs",
+  "Authors": "Lunoxs, ForceFK",
   "Data": {
     "Str": {
       "None": "None",
@@ -61,7 +61,9 @@
       "And": " and ",
       "WebHook": "WebHook",
       "OpenInBrowser": "Open in browser",
-      "Content": "Content"
+      "Content": "Content",
+      "ChangeMessage": "Change Mensagem",
+      "ShowVariables": "Available Variables"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "The bot **does not have the necessary permissions** to execute this command.",
@@ -401,8 +403,7 @@
       "RateSelectVeryEasyEXP": "Easy to pass the level",
       "RateSelectDoubleEXP": "Double the base XP",
       "XPBaseInfo": "XP base: 15 to 25 (random)",
-      "MessageVariables": "`{user.mention}` - Mention the user\n`{user.id}` - ID user\n`{user}` - User's server nickname or display name\n`{level}` - Current level\n`{next.level}` - Next level\n`{xp}` - Experience  current\n`{rank.pos}` - Current in the server position rank\n`{next.level.xp}` - Total experience to the next level\n`{next.level.xp.required}` - Missing experience for the next level\n`{messages}` - Number of messages that generated experience",
-      "ShowVariables": "Available Variables",
+      "MessageVariables": "`{user}` - User's server nickname or display name\n`{user.mention}` - Mention the user\n`{user.id}` - ID user\n`{level}` - Current level\n`{next.level}` - Next level\n`{xp}` - Experience  current\n`{rank.pos}` - Current in the server position rank\n`{next.level.xp}` - Total experience to the next level\n`{next.level.xp.required}` - Missing experience for the next level\n`{messages}` - Number of messages that generated experience",
       "ChangeChannel": "Change Channel",
       "ChangeMessage": "Personalize Menssages",
       "HeaderRewards": "Levels by Experiences > Rewards",
@@ -478,6 +479,24 @@
       "Success": "🚩 Message reported to the server team.",
       "MessageReported": "🚩 This message has already been reported.",
       "MessageReportedYou": "🚩 You have already reported this message."
+    },
+    "SetupMJoinLeave": {
+      "Header": "SETUP | Join/Leave Members",
+      "HeaderJoin": "SETUP | Join Members",
+      "HeaderLeave": "SETUP | Leave Members",
+      "EmbedMainDescription": "Alfredo will send a message when a member joins or leaves the server.",
+      "FieldJoinMessage": "Join Message",
+      "FieldLeaveMessage": "Leave Message",
+      "JoinButton": "Join Members",
+      "LeaveButton": "Leave Members",
+      "JoinDefaultMessage": "{user.mention} has joined the server!",
+      "LeaveDefaultMessage": "{user.mention} has left the server!",
+      "ShowUserInfoButton": "User Information Button",
+      "TestCommand": "Test",
+      "MessageFormated": "Formatted Message",
+      "Enable": "Enable Function",
+      "Disable": "Disable Function",
+      "MessageVariables": "`{user}` - User's display name\n`{user.mention}` - Mentions the user\n`{user.id}` - User ID\n`{guild}` - Server name\n`{guild.members}` - Number of members on the server"
     },
     "Kick": {
       "UserIsOwner": "I can't kick the server owner out.",
