@@ -63,7 +63,9 @@
       "OpenInBrowser": "Abrir no navegador",
       "Content": "Conteúdo",
       "ChangeMessage": "Alterar Mensagem",
-      "ShowVariables": "Variáveis Disponíveis"
+      "ShowVariables": "Variáveis Disponíveis",
+      "TryAgain": "Tentar Novamente",
+      "Loading": "Carregando..."
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "O bot **não tem as permissões** necessárias para executar esse comando.",
@@ -83,7 +85,8 @@
       "RoleIsEveryone": "O cargo Everyone não pode ser adicionado nem removido.",
       "RoleFoundUser": "{0} já possui o cargo {1}!",
       "RoleNotFoundUser": "{0} não possui o cargo {1}!",
-      "UserNotFoundInGuild": "Membro não encontrado no servidor."
+      "UserNotFoundInGuild": "Membro não encontrado no servidor.",
+      "TooManyRequests": "Muitas solicitações, aguarde uns segundos e tente novamente."
     },
     "UnmetPrecondition": {
       "NotAGuildErrorMessage": "Este comando só pode ser executado em servidores.",
@@ -462,7 +465,8 @@
       "MessageFormated": "Mensagem Formatada",
       "Enable": "Ativar Função",
       "Disable": "Desativar Função",
-      "MessageVariables": "`{user}` - Nome de exibição do usuário\n`{user.mention}` - Menciona o usuário\n`{user.id}` - ID do usuário\n`{guild}` - Nome do servidor\n`{guild.members}` - Número de membros no servidor"
+      "MessageVariables": "`{user}` - Nome de exibição do usuário\n`{user.mention}` - Menciona o usuário\n`{user.id}` - ID do usuário\n`{guild}` - Nome do servidor\n`{guild.members}` - Número de membros no servidor",
+      "SelectChannel": "Selecione um canal de texto"
     },
     "YouTube": {
       "NoResults": "Nenhum resultado encontrado."
@@ -586,6 +590,10 @@
       "AuditLogReason": "Solicitado por {0}|{1}",
       "AddSuccess": "Cargo {0} foi adicionado ao {1}!",
       "RemoveSuccess": "Cargo {0} foi removido do {1}!"
+    },
+    "Correios": {
+      "RastrearNoneInfo": "Não é possível exibir informações para o código informado.",
+      "RastrearRecentPackage": "\n\n*Seu objeto foi postado recentemente e ainda não pode ser rastreado.*"
     }
   }
 }
