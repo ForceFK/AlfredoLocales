@@ -86,7 +86,8 @@
       "RoleFoundUser": "{0} já possui o cargo {1}!",
       "RoleNotFoundUser": "{0} não possui o cargo {1}!",
       "UserNotFoundInGuild": "Membro não encontrado no servidor.",
-      "TooManyRequests": "Muitas solicitações, aguarde uns segundos e tente novamente."
+      "TooManyRequests": "Desculpe, estamos recebendo muitas solicitações no momento.\nPor favor, aguarde alguns minutos e tente novamente.",
+      "GatewayTimeout": "Desculpe, mas a API de consulta está temporariamente indisponível.\nPor favor, tente novamente mais tarde."
     },
     "UnmetPrecondition": {
       "NotAGuildErrorMessage": "Este comando só pode ser executado em servidores.",
@@ -184,13 +185,13 @@
     },
     //https://discordnet.dev/api/Discord.GuildFeature.html
     "Feature": {
-      "AnimatedBanner": "`Banner Animado`",
-      "AnimatedIcon": "`Icone Animado`",
+      "AnimatedBanner": "`Banner animado`",
+      "AnimatedIcon": "`Icone animado`",
       "Banner": "`Banner`",
       "?ChannelBanner": null,
       "?Commerce": null,
       "Community": "`Comunidade`",
-      "Discoverable": "`Servidor Público`",
+      "Discoverable": "`Servidor público`",
       "DiscoverableDisabled": null,
       "EnabledDiscoverableBefore": null,
       "?Featureable": null,
