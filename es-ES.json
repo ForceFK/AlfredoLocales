@@ -3,7 +3,7 @@
   "LocalizedName": "es-ES",
   "LocalizationFlagEmoji": "🇪🇸",
   "FallbackLanguage": "en-US",
-  "Authors": "ForceFK, Impact",
+  "Authors": "Impact, ForceFK",
   "Data": {
     "Str": {
       "None": "Ninguno",
@@ -61,7 +61,11 @@
       "And": " y ",
       "WebHook": "WebHook",
       "OpenInBrowser": "Abrir en el navegador",
-      "Content": "Contenido"
+      "Content": "Contenido",
+      "ChangeMessage": "Cambiar mensaje",
+      "ShowVariables": "Variables disponibles",
+      "TryAgain": "Intentar otra vez",
+      "Loading": "Cargando..."
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "El bot **no tiene los permisos necesarios** para ejecutar este comando.",
@@ -81,7 +85,9 @@
       "RoleIsEveryone": "La rol Everyone no se puede asignar ni eliminar.",
       "RoleFoundUser": "¡{0} ya tiene el rol {1}!",
       "RoleNotFoundUser": "¡{0} no tiene el rol {1}!",
-      "UserNotFoundInGuild": "Miembro no encontrado en el servidor."
+      "UserNotFoundInGuild": "Miembro no encontrado en el servidor.",
+      "TooManyRequests": "Disculpa, estamos recibiendo muchas solicitudes en este momento.\nPor favor, espera unos minutos e inténtalo de nuevo.",
+      "GatewayTimeout": "Disculpa, pero API de consulta no está disponible en este momento.\nPor favor, inténtalo de nuevo más tarde."
     },
     "UnmetPrecondition": {
       "NotAGuildErrorMessage": "Este comando solo se puede ejecutar en servidores.",
@@ -154,6 +160,55 @@
 
       "ViewMonetizationAnalytics": "Ver análisis de monetización",
       "UseClydeAI": "Usar Clyde"
+    },
+
+    "Feature": {
+      "AnimatedBanner": "`Banner Animado`",
+      "AnimatedIcon": "`Icono Animado`",
+      "Banner": "`Banner`",
+      "?ChannelBanner": null,
+      "?Commerce": null,
+      "Community": "`Comunidad`",
+      "Discoverable": "`Servidor Público`",
+      "DiscoverableDisabled": null,
+      "EnabledDiscoverableBefore": null,
+      "?Featureable": null,
+      "?ForceRelay": null,
+      "?HasDirectoryEntry": null,
+      "?Hub": null,
+      "InviteSplash": "`Fondo de invitación`",
+      "?LinkedToHub": null,
+      "MemberProfiles": null,
+      "MemberVerificationGateEnabled": "`Pantalla de verificación`",
+      "?MonetizationEnabled": null,
+      "?MoreEmoji": null,
+      "?MoreStickers": null,
+      "News": "`Novedades`",
+      "NewThreadPermissions": null,
+      "Partnered": "`Asociado`",
+      "?PremiumTier3Override": null,
+      "PreviewEnabled": "`Previa del servidor`",
+      "PrivateThreads": "`Hilos privados`",
+      "?RelayEnabled": null,
+      "RoleIcons": "`Íconos de roles`",
+      "?RoleSubscriptionsAvailableForPurchase": null,
+      "?RoleSubscriptionsEnabled": null,
+      "SevenDayThreadArchive": null,
+      "TextInVoiceEnabled": null,
+      "ThreadsEnabled": null,
+      "ThreadsEnabledTesting": null,
+      "ThreadsDefaultAutoArchiveDuration": null,
+      "ThreeDayThreadArchive": null,
+      "TicketedEventsEnabled": null,
+      "VanityUrl": "`Invitación personalizada`",
+      "Verified": "`Verificado`",
+      "VIPRegions": null,
+      "WelcomeScreenEnabled": "`Pantalla de bienvenida`",
+      "DeveloperSupportServer": "`Servidor de soporte`",
+      "?InvitesDisabled": null,
+      "AutoModeration": "`AutoMod`",
+      "GuildWebPageVanityUrl": null,
+      "RaidAlertsDisabled": null
     }
   }
 }

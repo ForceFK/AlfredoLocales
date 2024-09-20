@@ -63,7 +63,9 @@
       "OpenInBrowser": "Open in browser",
       "Content": "Content",
       "ChangeMessage": "Change Mensagem",
-      "ShowVariables": "Available Variables"
+      "ShowVariables": "Available Variables",
+      "TryAgain": "Try Again",
+      "Loading": "Loading..."
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "The bot **does not have the necessary permissions** to execute this command.",
@@ -83,7 +85,9 @@
       "RoleIsEveryone": "The Everyone role cannot be added or removed.",
       "RoleFoundUser": "{0} already has the role {1}!",
       "RoleNotFoundUser": "{0} does not have role {1}!",
-      "UserNotFoundInGuild": "Member not found on server."
+      "UserNotFoundInGuild": "Member not found on server.",
+      "TooManyRequests": "Apologies, but we’re experiencing high demand right now.\nPlease wait a few minutes and try again.",
+      "GatewayTimeout": "Apologies, but query API is temporarily unavailable.\nPlease try again later"
     },
     "UnmetPrecondition": {
       "NotAGuildErrorMessage": "This command cannot be used outside of a guild.",
@@ -496,7 +500,8 @@
       "MessageFormated": "Formatted Message",
       "Enable": "Enable Function",
       "Disable": "Disable Function",
-      "MessageVariables": "`{user}` - User's display name\n`{user.mention}` - Mentions the user\n`{user.id}` - User ID\n`{guild}` - Server name\n`{guild.members}` - Number of members on the server"
+      "MessageVariables": "`{user}` - User's display name\n`{user.mention}` - Mentions the user\n`{user.id}` - User ID\n`{guild}` - Server name\n`{guild.members}` - Number of members on the server",
+      "SelectChannel": "Select a text channel"
     },
     "Kick": {
       "UserIsOwner": "I can't kick the server owner out.",
@@ -586,6 +591,10 @@
       "AuditLogReason": "Requested by: {0}|{1}",
       "AddSuccess": "Role {0} has been added to {1}!",
       "RemoveSuccess": "Role {0} was removed from the {1}!"
+    },
+    "Correios": {
+      "RastrearNoneInfo": "Unable to display information for the given code.",
+      "RastrearRecentPackage": "\n\n*Your package was recently posted and cannot yet be tracked.*"
     }
   }
 }
