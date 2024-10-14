@@ -209,6 +209,15 @@
       "AutoModeration": "`AutoMod`",
       "GuildWebPageVanityUrl": null,
       "RaidAlertsDisabled": null
+    },
+    "Weather": {
+      "Error": "Oops, hay un pequeño error, verifique que la ciudad escrita es correcta .",
+      "Title": "Tiempo actual en {0} - {1}",
+      "Temperature": "🌡 Temperatura",
+      "FeelsLike": ":person_tipping_hand: Sensación térmica",
+      "Humidity": "💦 Humedad actual",
+      "WindSpeed": "🍃 Velocidad del Viento",
+      "Pressure": "🏋 Presión atmosférica"
     }
   }
 }

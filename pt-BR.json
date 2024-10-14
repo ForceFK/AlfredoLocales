@@ -557,7 +557,7 @@
     },
     "Weather": {
       "Error": "Eita, isso não era pra acontecer, verifique se a cidade digitada está correta.",
-      "Title": "Clima atual em {0} - {1}",
+      "Title": "Tempo atual em {0} - {1}",
       "Temperature": "🌡 Temperatura",
       "FeelsLike": ":person_tipping_hand: Sensação",
       "Humidity": "💦 Umidade",
@@ -594,7 +594,7 @@
     },
     "Correios": {
       "RastrearNoneInfo": "Não é possível exibir informações para o código informado.",
-      "RastrearRecentPackage": "\n\n*Seu objeto foi postado recentemente e ainda não pode ser rastreado.*"
+      "RastrearRecentPackage": "\n\n*Se seu objeto foi postado recentemente e ainda não pode ser rastreado.*"
     }
   }
 }
