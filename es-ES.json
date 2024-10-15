@@ -12,7 +12,7 @@
       "False": "No",
       "T": "S",
       "F": "N",
-      "Message": "Mensage",
+      "Message": "Mensaje",
       "Motive": "Motivo",
       "Channel": "Canal",
       "Roles": "Cargos",
@@ -210,6 +210,329 @@
       "GuildWebPageVanityUrl": null,
       "RaidAlertsDisabled": null
     },
+    "RoleInfo": {
+      "Color": "Color del cargo",
+      "Hoisted": "Mostra membros separados",
+      "Mentionable": "Mencionable",
+      "Managed": "Integración",
+      "Mention": "Mención",
+      "NonePermission": "Ningún"
+    },
+    "UserInfo": {
+      "CreatedAt": "Entró en el Discord:",
+      "JoinedAt": "Entró en el Servidor:",
+      "BoostingSize": "Impulsó el Servidor:",
+      "NoBoosting": "No impulsa",
+      "Activities": "Actividades:",
+      "DiscordTag": "Discord Tag:",
+      "DiscordID": "Discord ID:",
+      "Roles": "Cargos ({0}):",
+      "ButtonAvatar": "Ver avatar",
+      "IsTimeOuted": "Eliminación del castigo:",
+      "ButtonLevels": "Ver ranking"
+    },
+    "Avatar": {
+      "GlobalWarn": "Este usuário posee un avatar\npersonalizado en el servidor.",
+      "BtnOpenExternal": "Abrir avatar en el navegador"
+    },
+    "Banner": {
+      "BtnOpenExternal": "Abrir banner en el navegador",
+      "GlobalWarn": "Este usuario posee un banner\npersonalizado en el servidor.",
+      "None": "Ningún banner encontrado."
+    },
+    "Clear": {
+      "Count0": "Informe cuantos mensajes va a eliminar, ejemplo `{0} eliminar 2`",
+      "Success": "Listo, borró **{0}** mensajes.",
+      "SuccessAuthor": "Listo, borró **{0}** mensajes de**{1}**.",
+      "SuccessLimited": "**{0}** mensajes no pudieron ser borrados por qué fueron enviados hace mas de **14 dias** o están **fijadas**!"
+    },
+    "Invite": {
+      "Invalid": "Invitación no válida.",
+      "ExpiresAt": "Vencido",
+      "Members": "Miembros ({0})",
+      "Inviter": "Quién invitó",
+      "BtnOpenIconExternal": "Ver icono",
+      "BtnOpenBannerExternal": "Ver banner",
+      "BtnOpenSplashExternal": "Ver dueño de la invitación"
+    },
+    "Translate": {
+      "ContentEmpty": "Ningún texto encontrado.",
+      "LanguageNotSupported": "Idioma `{0}` no es soportado.",
+      "InvalidTargetLanguage": "Idioma `{0}` es inválido.",
+      "LanguageDetected": "Detectado",
+      "OthersCount": "y otros {0}..."
+    },
+    "EmbedCreate": {
+      "HeaderContent": "Creador de Embed",
+      "DefaultTitle": "Personalice abajo",
+      "DefaultDescription": "Necesitas de por lo menos una linea de texto o una imagen!",
+      "EditFields": "Editar Lineas",
+      "ImportJson": "Importar JSON",
+      "ImportJsonPlaceholder": "Pegue aqui un código JSON que exportaste anteriormente",
+      "ImportJsonFail": "Verifique su código JSON e intente nuevamente.",
+      "ExportJson": "Exportar JSON",
+      "AuthorHeader": "Cambiar autor de embed",
+      "AuthorPlaceholder": "Estará en em comienzo del embed, arriba de todo",
+      "AuthorImage": "Imagen del autor",
+      "AuthorImagePlaceholder": "[Opcional] URL de la miniatura que estará antes del autor",
+      "AuthorURL": "URL del autor",
+      "AuthorURLPlaceholder": "[Opcional] Al hacer click en elautor debe abrir algún link?",
+      "PersonalColor": "Color Personalizado",
+      "FindMoreColors": "Encontrar Colores",
+      "ColorHeader": "Cambiar color del embed",
+      "ColorHEX": "Color (HEX)",
+      "ColorHEXPlaceholder": "Ingresa un color en HEX, (Exemplo: #000000).",
+      "DescriptionHeader": "Cambiar descripción del embed",
+      "DescriptionPlaceholder": "Cargo: <@&ID>\nCanal: <#ID>\n[Nombre del Link](URL)\nUse \\ antes del item para obtener el código",
+      "NewField": "Nueva Linea",
+      "EditField": "Editar Linea",
+      "FieldLabel": "Nombre de linea",
+      "FieldLabelPlaceholder": "Nombre para la linea",
+      "FieldValue": "Valor de linea",
+      "FieldValuePlaceholder": "Texto dentro de la linea, acepta formateos",
+      "FieldInline": "En linea",
+      "FieldInlinePlaceholder": "¿Debería el campo continuar en la misma línea siguiente? (S/N)",
+      "FooterHeader": "Cambiar pie de página del embed",
+      "FooterPlaceholder": "estará en el final del embed, abajo de todo",
+      "FooterImage": "Imágen de pie de pagina",
+      "FooterImagePlaceholder": "[Opcional] URL de la miniatura que estará antes del pie de pagina",
+      "ImagesHeader": "Cambiar imágenes incrustadas ",
+      "ImagePlaceholder": "URL de imagen grande que estará en el final",
+      "ThumbnailPlaceholder": "URL de la miniatura pequeña que estará en la parte derecha",
+      "SendWebHookHeader": "Enviar embed",
+      "SendWebHookURL": "URL del WebHook",
+      "SendWebHookURLPlaceholder": "Cree un webhook en las configuraciones el canal de texto en Integraciones, copie el URL y pegue aqui",
+      "SendWebHookName": "Nombre del WebHook",
+      "SendWebHookNamePlaceholder": "[Opcional] Nombre del usuário de webhook",
+      "SendWebHookImageURL": "Imagen del WebHook",
+      "SendWebHookImageURLPlaceholder": "[Opcional] URL de una imagen para ser el avatar de webhook",
+      "TitleHeader": "Cambiar título de encabezado",
+      "TitlePlaceholder": "Estará arriba, abajo del autor",
+      "TitleURL": "URL del Título",
+      "TitleURLPlaceholder": "[Opcional] Al hacer click en el título debe abrir algún link?",
+      "NullContent": "Ningún encabezado encontrado.",
+      "WebHookUrl": "WebHook Url",
+      "SendThisChannel": "Enviar aqui",
+      "SelectWebhook": "Seleccione un WebHook",
+      "CreateWebhook": "Cree un WebHook en las configuraciones delbcanal"
+    },
+    "Server": {
+      "Channels": "Canales ({0})",
+      "BtnShowIcon": "Ver ícono",
+      "BtnShowBanner": "Ver banner",
+      "BtnShowSplash": "Ver dueño de la invitación",
+      "BtnOpenIconExternal": "Abrir ícono en el navegador",
+      "BtnOpenBannerExternal": "Abrir banner en el  navegador",
+      "BtnOpenSplashExternal": "Abrir dueño de la invitación en el navegador",
+      "IconNone": "Ningún icono encontrado.",
+      "BannerNone": "Ningún banner encontrado.",
+      "SplashNone": "Ningún dueño de invitación encontrado.",
+      "ServerIsNull": "No encontré el servidor, talvez no estoy allí."
+    },
+    "Bot": {
+      "InviteText": "**[Haz click aqui para agregar a Alfredo a su servidor!]({0})**\n\nDesea usar los comandos de <@641450727977386065> en otros lugares *(mensajes directos o en grupos que no tienen el bot)*?\n[Haz click aqui para instalar a Alfredo en su cuenta como una aplicación!]({1})"
+    },
+    "Rank": {
+      "UserIsBot": "{0} es un bot y por eso no tiene un rank.",
+      "UserNoRank": "{0} aún no tiene un rank.",
+      "YouNoRank": "Usted aún no tiene un rank, converse o hable un poco en algún chat...",
+      "EmbedDescription": ":medal: **Posición en el Rank:** {0}º\n:star: **Nível:** {1}\n:speech_balloon: **Mensajes:** {2}",
+      "EmbedFieldProgress": ":arrow_up: Progreso ({0}/{1} EXP)",
+      "YouLevelNextReward": "Su próxima recompensa será en el nível {0}"
+    },
+    "Leaderboard": {
+      "LevelsTitle": "Ranking General | Página {0}",
+      "LevelsField": "Nível: {0} -  Exp: {1}"
+    },
+    "Setup": {
+      "DisableModule": "Desactivar Módulo",
+      "EnableModule": "Activar Módulo",
+      "ConfigNull": "Active el módulo para configurar.",
+      "ModuleDisabled": "Este módulo no está activo.",
+      "ModuleSetupTip": "Utilize </setup:1115530195387023371> para hacer las configuraciones iniciales!"
+    },
+    "SetupAutorole": {},
+    "SetupLevels": {
+      "Header": "SETUP | Niveles por Experiencias",
+      "EmbedMainDescription": "XP Rate: `{0}x`\nSlot de recompensas: `{1}/{2}`",
+      "RewardsStyleFieldHeader": "Estilo de  Recompensas",
+      "RemoveOldReward": "Quitar recompensas anteriores",
+      "RemoveOldRewardDescription": "Los usuarios tendrán la mayor recompensa",
+      "StackRewards": "Apilar recompensas anteriores",
+      "StackRewardsDescription": "Los usuarios podrán tener varias recompensas al mismo tiempo",
+      "AlertDisabled": "Alerta desactivada",
+      "AlertOnlyReward": "Avisar solo si recibes un cargo",
+      "AlertAllLevels": "Avisar siempre que pase de nível",
+      "AlertChannel": "Canal de Aviso:",
+      "AlertTip": "```Personalice el mensaje de alerta con el botón '{0}'```",
+      "AlertFieldHeader": "Alerta de Rank UP",
+      "CurrentUserChannel": "Canal actual de usuario",
+      "OtherChannel": "Otro canal",
+      "OtherChannelPlaceholder": "En cuál canal debe ser enviadas las alertas?",
+      "DeniedRolesFieldHeader": "Cargos que no darán experiencia",
+      "DeniedRolesTip": "```Agregue un cargo al botón '{0}'```",
+      "DeniedChannelsFieldHeader": "Canales que no darán experiencia",
+      "DeniedChannelsTip": "```Agregue un canal en el botón '{0}'```",
+      "ChangeRateEXP": "Cambiar Multiplicador",
+      "ChangeAlerts": "Configurar Alerta",
+      "ChangeRewards": "Recompensas",
+      "DenyRoleChannel": "Limitar Cargos/Canales",
+      "ResetExperiences": "Reiniciar Experiencias",
+      "ResetExperiencesWarn": "## :warning: Esta acción no podrá ser deshecha! :warning:\nUsted está a punto de **borrar** todos los niveles de experiencias.\n**Está seguro que desea continuar?**",
+      "ResetExperiencesSuccess": "Todos los niveles de experiencias fueron borrados con exito!\n*Recompensas no fueron eliminadas de los usuarios*",
+      "ResetExperiencesEmpty": "Ningún nivel de experiencia fué encontrado.",
+      "RateSelectVeryHardEXP": "Extremamente difícil pasar de nivel",
+      "RateSelectVeryEasyEXP": "Fácil pasar de nivel",
+      "RateSelectDoubleEXP": "Doble de XP base",
+      "XPBaseInfo": "XP base: 15 hasta 25 (aleatório)",
+      "MessageVariables": "`{user}` - Apellido de usuario en el servidor o el nombre para mostrar\n`{user.mention}` - Menciona el usuario\n`{user.id}` - ID del usuario\n`{level}` - Nivel actual\n`{next.level}` - Próximo nivel\n`{xp}` - Experiencia actual\n`{rank.pos}` - Posición actual en el ranking del servidor\n`{next.level.xp}` - Experiencia total para el próximo nivel\n`{next.level.xp.required}` - Experiencia faltante para el próximo nivel\n`{messages}` - Número de mensajes que generan experiencia",
+      "ChangeChannel": "Cambiar de Canal",
+      "ChangeMessage": "Personalizar Mensaje",
+      "HeaderRewards": "Niveles por Experiencias > Recompensas",
+      "RewardsNull": "Ninguna recompensa registrada, seleccione un cargo para configurar!",
+      "EmbedRewardsFooter": "Slots: {0}/{1}",
+      "RemoveReward": "Borrar una recompensa",
+      "RemoveAllRewards": "Borrar TODAS las recompensas",
+      "ChangeRewardsSelectPlaceholder": "Seleccione un cargo",
+      "RewardBotRoleHierarchyLower": "Mi cargo es menor que el cargo escogido!\nMueva mi cargo de integración arriba de este o no podrá entregar a los usuários.",
+      "RewardYouRoleHierarchyLower": "Su cargo es menor que el cargo escogido!\nUsted solo puede asignar cargos que tenga permisos.",
+      "RewardLevelRemoveAsk": "En que nivel desea borrar la recompensa?",
+      "RewardLevelAsk": "En que nivel desea agregar el cargo?",
+      "ModalRewardAddHeader": "Cargo: {0}",
+      "ResetRewardsWarn": "## :warning: Esta acción no podrá ser deshecha! :warning:\nEstás a punto de **eliminar** todas las recompensas.\n**¿Estás seguro de que deseas continuar?**",
+      "ResetRewardsEmpty": "Ninguna recompensa fué encontrada.",
+      "DenyRole": "Limitar Cargos",
+      "DenyChannel": "Limitar Canales",
+      "DenyResetRoles": "Denegar Cargos",
+      "DenyResetChannels": "Denegar Canales",
+      "DenyRolePlaceholder": "Cual cargo desea agregar/borrar?",
+      "DenyChannelPlaceholder": "Cual canal desea agregar/borrar?",
+      "DefaultMessageRankUP": "Felicidades {user.mention}, Subió para el nível **{level}**!"
+    },
+    "SetupMemberCounter": {
+      "Header": "SETUP | Contator de Miembros",
+      "EmbedMainDescription": null
+    },
+    "SetupVerification": {
+      "Header": "SETUP | Verificación de Miembros",
+      "ModalInitialCloneMessageHeader": "Clonar Mensaje",
+      "ModalInitialCloneMessageInput": "Cuál es el link del mensaje?"
+    },
+    "SetupLanguage": {
+      "Header": "SETUP | Idioma predeterminado del Servidor",
+      "EmbedMainDescription": "Idioma predeterminado para avisos sin interacción de un miembro.\n\n**Exemplos** \nAviso predeterminado que el miembro pasó de nível.\nMensaje predeterminado de entradas/salidas.",
+      "Authors": "Autores: {0}",
+      "SysWarnAutoSet": "**SISTEMA:**\nIdioma predeterminado del servidor fué definido automaticamente como `{0}`\nCambie en </setup:1115530195387023371> en el modulo `Idioma predeterminado del Servidor`"
+    },
+    "SetupReport": {
+      "Header": "SETUP | Reporte de Mensajes",
+      "EmbedMainDescription": "Este módulo permitirá que los miembros del servidor puedan reportar mensajes sospechosos para que el equipo de moderación analice de manera simple y rápida.\nSi todo está configurado correctamente, un mensaje será enviado al canal escogido abajo y el moderador podrá tomar las s acciones que crea adecuadas.\n\n**Cómo configurar?**\n1. Cree un Canal de texto **privado**.\n`En ese canal será pública los reportes hechos por los  miembros del servidor.`\n`Solo se permite que su equipo de moderadores acceda al canal.`\n`Recomendado activar restricción de edad en el canal (NSFW).`\n2. Seleccione el canal creaeo en el selector abajo.\n3. Active el módulo.\n\n**Cómo reportar?**\n1. En el computador, haz click con el botón derecho sobre un mensaje, en el celular, toque y mantenga presionado sobre un mensaje.\n2. Va a la opción **Aplicaciones** y seleccione **Reportar Mensaje**."
+    },
+    "SetupMJoinLeave": {
+      "Header": "SETUP | Entrada/Salida de Miembros",
+      "HeaderJoin": "SETUP | Entrada de Miembros",
+      "HeaderLeave": "SETUP | Salida de Miembros",
+      "EmbedMainDescription": "Alfredo enviará un mensaje cuando un miembro entra o sale del servidor.",
+      "FieldJoinMessage": "Mensaje de entrada",
+      "FieldLeaveMessage": "Mensaje de salida",
+      "JoinButton": "Entrada de Miembros",
+      "LeaveButton": "Salida de Miembros",
+      "JoinDefaultMessage": "{user.mention} entró en el servidor!",
+      "LeaveDefaultMessage": "{user.mention} salió del servidor!",
+      "ShowUserInfoButton": "Botón Informaciones de Usuarios",
+      "TestCommand": "Probar",
+      "MessageFormated": "Mensaje Formateado",
+      "Enable": "Activar Función",
+      "Disable": "Desactivar Función",
+      "MessageVariables": "`{user}` - Nombre para mostrar de usuario\n`{user.mention}` - Menciona el usuario\n`{user.id}` - ID del usuario\n`{guild}` - Nombre del servidor\n`{guild.members}` - Número de miembros en el servidor",
+      "SelectChannel": "Selecione un canal de texto"
+    },
+    "YouTube": {
+      "NoResults": "Ningún resultado encontrado."
+    },
+    "Report": {
+      "RequiredUserMessage": "Sólo se pueden reportar mensajes enviados por otros usuarios.",
+      "MessageExceededLimitDate": "Solo puedes reportar mensajes enviados antes de hasta **14 dias**.",
+      "MessageEmpty": "No es posible reportar mensajes sin contenido.",
+      "WaitTime": " Puede hacer un nuevo reporte {0}.",
+      "AuthorInfo": "Información del Autor",
+      "MarkResolved": "Marcar como resuelto",
+      "KickAuthor": "Expulsar Autor",
+      "BanAuthor": "Banear Autor",
+      "TimeoutAuthor": "Castigar Autor",
+      "SelectPrivateChannel": "Seleccione un canal privado",
+      "ExecutedBy": "[Reporte de Mensajes] Solicitado por: {0}",
+      "CancelActionChannelIsNull": "❌ Acción cancelada, canal fué borrado.",
+      "CancelActionAuthorIsNull": "❌ Acción cancelada, autor no fué encontrado en el grupo.",
+
+      "RequiredBotChannelViewManageMessages": "El bot necesita permisos `Ver canal` y `Administrar mensajes` en el canal {0}.",
+      "InvalidSettings": "❌ **Reporte no enviado!**\nError en las configuraciones del módulo, Reporte al equipo del servidor.",
+      "InvalidBotPerms": "❌ **Reporte no enviado!**\nError en los permisos del bot, reporte al equipo del servidor.",
+      "InvalidChannel": "No es posible  reportar mensajes de este  canal.",
+
+      "ActionResolved": "{0} **marcar como resuelto.**",
+      "ActionDelete": "{0} borró el mensaje.",
+      "ActionKick": "{0} expulsó al autor.",
+      "ActionBan": "{0} baneó al autor.",
+      "ActionBanAndResolved": "{0} se banió al  autor y el reporte **fué resuelto**.",
+      "ActionTimeout": "{0} se castigó al autor por `{1}`.",
+      "ContentHeader": "## {0} reportó un mensaje de {1} en <#{2}>",
+      "Éxito": "🚩 Mensaje reportado para el equipo del servidor.",
+      "MessageReported": "🚩 Este mensaje ya fue reportado.",
+      "MessageReportedYou": "🚩 Usted ya reportó este mensaje."
+    },
+    "Kick": {
+      "UserIsOwner": "No puedo expulsar el dueño del servidor.",
+      "UserIsHigherBot": "**Mi cargo** debe ser **superior** al cargo del miembro que usted quiere expulsar.",
+      "UserIsHigherYou": "**Su cargo** debe ser **superior** al cargo del miembro que usted quiere expulsar.",
+      "Tu": "Encerio? Quieres ser expulsado del grupo? No va a suceder!"
+    },
+    "Ban": {
+      "UserIsOwner": "No puedo banear al dueño del servidor.",
+      "UserIsHigherBot": "**Mi cargo** debe ser **superior** al cargo del miembro que usted quiere banear.",
+      "UserIsHigherYou": "**Su cargo** debe ser **superior** al cargo del miembro que usted quiere banear.",
+      "Tu": "Encerio? Quieres ser baneado del grupo? No va a suceder!",
+      "UserAlreadyBanned": "**{0}** ya está baneado!\nMotivo:{1}",
+      "NoReason": "Motivo no informado"
+    },
+    "Timeout": {
+      "UserIsOwner": "No puedo castigar al dueño del servidor.",
+      "UserIsAdmin": "No puedo castigar a los  Administradores del servidor.",
+      "UserIsHigherBot": "**Mi cargo** debe ser **superior** al cargo del miembro que usted quiere castigar.",
+      "UserIsHigherYou": "**Su cargo** debe ser **superior** al cargo del miembro que usted quiere castigar.",
+      "Tu": "Encerio? Quieres ser castigado del grupo? No va a suceder!",
+      "UserAlreadyTimeouted": "**{0}** ya está castigado!\nExpira {1}",
+      "NoReason": "Motivo no informado",
+      "Timeout60": "60 Segundos",
+      "Timeout300": "5 Minutos",
+      "Timeout600": "10 Minutos",
+      "Timeout3600": "1 Hora",
+      "Timeout86400": "1 Dia",
+      "Timeout604800": "7 Dias",
+      "Timeout1296000": "15 Dias",
+      "Timeout2419199": "28 Dias"
+    },
+    "DMBot": {
+      "DeleteMessageSuccess": "Mensaje borrado.",
+      "DeleteMessageError": "Solo se pueden borrar mis mensajes."
+    },
+    "CalcPB": {
+      "TitleKD": "Calculadora de KD",
+      "CurrentKD": "Kill/Death actual: `{0} ({1})%`",
+      "InfoKD": "### Esta calculadora permite que usted visualice cuánto necesita matar sin morir para aumentar su KD.\nKD es el indicativo de cuantos enemigos el jugador mató en relación a las veces que murió en el juego. \nTener un KD alto significa que el jugador mató mucho más de lo que murió, ejemplo KD 50% significa que el jugador mató lo mismo tanto que murió.",
+
+      "TitleHS": "Calculadora de HS",
+      "CurrentHS": "Headshot actual: `{0} ({1})%`",
+      "InfoHS": "### :warning: Cuentas baneadas pueden tener un resultado de cálculos incorrecto, pues el headshot no es reiniciado igual que el K/D."
+    },
+    "Dictionary": {
+      "Title": ":blue_book: Significado de {0}",
+      "TitleSynonym": ":book: Sinónimos",
+      "TitlePhrase": ":pencil: Frase",
+      "NoResult": "No fueron encontradas palabras en la búsqueda por {0}.",
+      "Meaningless": "Usted buscó una palabra que no existe."
+
+    },
     "Weather": {
       "Error": "Oops, hay un pequeño error, verifique que la ciudad escrita es correcta .",
       "Title": "Tiempo actual en {0} - {1}",
@@ -218,6 +541,38 @@
       "Humidity": "💦 Humedad actual",
       "WindSpeed": "🍃 Velocidad del Viento",
       "Pressure": "🏋 Presión atmosférica"
+    },
+    "Giveaway": {
+      "TitleNumbers": "Sorteo de Números",
+      "TitleNames": "Sorteo de Nombres",
+      "Result": "Resultado de Sorteo:",
+      "Quantity": "Cantidad de resultados:",
+      "QuantityPlaceholder": "1 hasta 100",
+      "Repetition": "Puede repetir resultados:",
+      "RepetitionPlaceholder": "S/N",
+      "Comma": "Coma",
+      "NewLine": "Salto de linea (Enter)",
+      "InvalidConfigNumbers": "Los números disponibles para el sorteo es menor que la cantidad, si prefieres, active la repetición o ajuste el mínimo y el máximo.",
+      "DescriptionNumbers": "Números: `{0}` hasta `{1}`\nCantidad de resultados: `{2}`\nPuede repetir números: `{3}`",
+      "ItemsNames": "Ítems:",
+      "ItemsNamesPlaceholder": "Escriba aqui los ítems que le gustaría sortear, separados por {0}.",
+      "DescriptionNames": "Cantidad de resultados: `{0}`\nPuede repetir: `{1}`\nCriterio de separación: {2}"
+    },
+    "Stick": {
+      "None": "Ningún sticker encontradl.",
+      "AddToGuild": "Agregue un sticker al grupo",
+      "AddToGuildSuccess": "Sticker agregado",
+      "AddToGuildSuccessResponse": ":white_check_mark: Sticker **{0}** fué agregada con éxito al grupo!",
+      "IsLottie": "❌ Sticker nativas no son soportadas."
+    },
+    "Role": {
+      "AuditLogReason": "Solicitado por {0}|{1}",
+      "AddSuccess": "Cargo {0} fué agregado al {1}!",
+      "RemoveSuccess": "Cargo {0} fué borrado de {1}!"
+    },
+    "Correios": {
+      "RastrearNoneInfo": "No es posible mostrar Informaciones para el código informado.",
+      "RastrearRecentPackage": "\n\n*Si su objeto fué publicado recientemente  aun no puede ser rastreado.*"
     }
   }
 }
