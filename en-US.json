@@ -99,6 +99,8 @@
       "PermissionUser": "You needs the following permissions to execute the command:\n{0}",
       "PermissionUserChannel": "You needs the following permissions on this channel to execute the command:\n{0}",
 
+      "DoHierarchy": "You cannot target anyone who is higher or equal in the hierarchy to you or the bot.",
+
       "RequiredBotKickMembers": "The bot needs the permission `Kick Members`.",
       "RequiredBotBanMembers": "The bot needs the permission `Ban Members`.",
       "RequiredBotManageMessages": "The bot needs the permission `Manage Messages`.",

@@ -99,6 +99,9 @@
       "PermissionUser": "Você precisa ter as seguintes permissões para executar o comando:\n{0}",
       "PermissionUserChannel": "Você precisa ter as seguintes permissões neste canal para executar o comando:\n{0}",
 
+      "DoHierarchy": "Você não pode selecionar ninguém que seja superior ou igual a você ou ao bot na hierarquia.",
+
+
       "RequiredBotKickMembers": "O bot precisa da permissão `Expulsar membros`.",
       "RequiredBotBanMembers": "O bot precisa da permissão `Banir membros`.",
       "RequiredBotManageMessages": "O bot precisa da permissão `Gerenciar mensagens`.",
