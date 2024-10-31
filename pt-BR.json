@@ -99,30 +99,7 @@
       "PermissionUser": "Você precisa ter as seguintes permissões para executar o comando:\n{0}",
       "PermissionUserChannel": "Você precisa ter as seguintes permissões neste canal para executar o comando:\n{0}",
 
-      "DoHierarchy": "Você não pode selecionar ninguém que seja superior ou igual a você ou ao bot na hierarquia.",
-
-
-      "RequiredBotKickMembers": "O bot precisa da permissão `Expulsar membros`.",
-      "RequiredBotBanMembers": "O bot precisa da permissão `Banir membros`.",
-      "RequiredBotManageMessages": "O bot precisa da permissão `Gerenciar mensagens`.",
-      "RequiredBotManageChannels": "O bot precisa da permissão `Gerenciar canais`.",
-      "RequiredBotManageRoles": "O bot precisa da permissão `Gerenciar cargos`.",
-      "RequiredBotModerateMembers": "O bot precisa da permissão `Membros de castigo`.",
-      "RequiredBotSendManageMessages": "O bot precisa da permissão `Enviar Mensagens` e `Gerenciar mensagens`.",
-
-      "RequiredUserKickMembers": "Você precisa da permissão `Expulsar membros`.",
-      "RequiredUserBanMembers": "Você precisa da permissão `Banir membros`.",
-      "RequiredUserManageGuild": "Você precisa da permissão `Gerenciar servidor`.",
-      "RequiredUserManageMessages": "Você precisa da permissão `Gerenciar mensagens`.",
-      "RequiredUserManageChannels": "Você precisa da permissão `Gerenciar canais`.",
-
-      //Não tem modo automatico no handle de erro
-      "RequiredBotChannelAttachFiles": "O bot precisa da permissão `Anexar arquivos` neste canal.",
-      "RequiredBotChannelEmbedLinks": "O bot precisa da permissão `Inserir links` neste canal.",
-      "RequiredBotChannelManageWebhooks": "O bot precisa da permissão `Gerenciar webhooks` neste canal.",
-      "RequiredBotChannelManageMessages": "O bot precisa da permissão `Gerenciar mensagens` neste canal.",
-      "RequiredBotChannelSendManageMessages": "O bot precisa da permissão `Enviar mensagens` e `Gerenciar mensagens` neste canal."
-
+      "DoHierarchy": "Você não pode selecionar ninguém que seja superior ou igual a você ou ao bot na hierarquia."
     },
     //https://discord.com/developers/docs/topics/permissions#permissions
     "Permission": {

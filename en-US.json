@@ -99,29 +99,7 @@
       "PermissionUser": "You needs the following permissions to execute the command:\n{0}",
       "PermissionUserChannel": "You needs the following permissions on this channel to execute the command:\n{0}",
 
-      "DoHierarchy": "You cannot target anyone who is higher or equal in the hierarchy to you or the bot.",
-
-      "RequiredBotKickMembers": "The bot needs the permission `Kick Members`.",
-      "RequiredBotBanMembers": "The bot needs the permission `Ban Members`.",
-      "RequiredBotManageMessages": "The bot needs the permission `Manage Messages`.",
-      "RequiredBotManageChannels": "The bot needs the permission `Manage Channels`.",
-      "RequiredBotManageRoles": "The bot needs the permission `Manage Roles`.",
-      "RequiredBotModerateMembers": "The bot needs the permission `Timeout Members`.",
-      "RequiredBotSendManageMessages": "The bot needs the permission `Send Messages` and `Manage Messages`.",
-
-      "RequiredUserKickMembers": "You need the permission `Kick Members`.",
-      "RequiredUserBanMembers": "You need the permission `Ban Members`.",
-      "RequiredUserManageGuild": "You need the permission `Manage Server`.",
-      "RequiredUserManageMessages": "You need the permission `Manage Menssages`.",
-      "RequiredUserManageChannels": "You need the permission `Manage Channels`.",
-
-
-      "RequiredBotChannelAttachFiles": "The bot needs permission `Attach Files` on this channel.",
-      "RequiredBotChannelEmbedLinks": "The bot needs permission `Embed Links` on this channel.",
-      "RequiredBotChannelManageWebhooks": "The bot needs permission `Manage Webhooks` on this channel.",
-      "RequiredBotChannelManageMessages": "The bot needs permission `Manage Messages` on this channel.",
-      "RequiredBotChannelSendManageMessages": "The bot needs permission `Send Messages` and `Manage Menssages` on this channel."
-
+      "DoHierarchy": "You cannot target anyone who is higher or equal in the hierarchy to you or the bot."
     },
 
     "Permission": {
