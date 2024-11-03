@@ -65,7 +65,8 @@
       "ChangeMessage": "Change Mensagem",
       "ShowVariables": "Available Variables",
       "TryAgain": "Try Again",
-      "Loading": "Loading..."
+      "Loading": "Loading...",
+      "AuditLogReason": "Requested by: {0}|{1}"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "The bot **does not have the necessary permissions** to execute this command.",
@@ -568,7 +569,6 @@
       "IsLottie": "❌ Native stickers are not supported."
     },
     "Role": {
-      "AuditLogReason": "Requested by: {0}|{1}",
       "AddSuccess": "Role {0} has been added to {1}!",
       "RemoveSuccess": "Role {0} was removed from the {1}!"
     },

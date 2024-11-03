@@ -65,7 +65,8 @@
       "ChangeMessage": "Alterar Mensagem",
       "ShowVariables": "Variáveis Disponíveis",
       "TryAgain": "Tentar Novamente",
-      "Loading": "Carregando..."
+      "Loading": "Carregando...",
+      "AuditLogReason": "Solicitado por {0}|{1}"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "O bot **não tem as permissões** necessárias para executar esse comando.",
@@ -568,7 +569,6 @@
       "IsLottie": "❌ Figurinhas nativas não são suportadas."
     },
     "Role": {
-      "AuditLogReason": "Solicitado por {0}|{1}",
       "AddSuccess": "Cargo {0} foi adicionado ao {1}!",
       "RemoveSuccess": "Cargo {0} foi removido do {1}!"
     },

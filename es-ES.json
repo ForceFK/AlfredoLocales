@@ -65,7 +65,8 @@
       "ChangeMessage": "Cambiar mensaje",
       "ShowVariables": "Variables disponibles",
       "TryAgain": "Intentar otra vez",
-      "Loading": "Cargando..."
+      "Loading": "Cargando...",
+      "AuditLogReason": "Solicitado por {0}|{1}"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "El bot **no tiene los permisos necesarios** para ejecutar este comando.",
@@ -97,7 +98,9 @@
       "PermissionBot": "El bot necesita los siguientes permisos para ejecutar el comando:\n{0}",
       "PermissionBotChannel": "El bot necesita los siguientes permisos en este canal para ejecutar el comando:\n{0}",
       "PermissionUser": "Debe tener los siguientes permisos para ejecutar el comando:\n{0}",
-      "PermissionUserChannel": "Debe tener los siguientes permisos en este canal para ejecutar el comando:\n{0}"
+      "PermissionUserChannel": "Debe tener los siguientes permisos en este canal para ejecutar el comando:\n{0}",
+
+      "DoHierarchy": "No puede seleccionar a nadie que sea superior o igual a usted o al bot en la jerarquía."
     },
 
     "Permission": {
@@ -477,7 +480,7 @@
       "ActionBanAndResolved": "{0} se banió al  autor y el reporte **fué resuelto**.",
       "ActionTimeout": "{0} se castigó al autor por `{1}`.",
       "ContentHeader": "## {0} reportó un mensaje de {1} en <#{2}>",
-      "Éxito": "🚩 Mensaje reportado para el equipo del servidor.",
+      "Success": "🚩 Mensaje reportado para el equipo del servidor.",
       "MessageReported": "🚩 Este mensaje ya fue reportado.",
       "MessageReportedYou": "🚩 Usted ya reportó este mensaje."
     },
@@ -485,13 +488,13 @@
       "UserIsOwner": "No puedo expulsar el dueño del servidor.",
       "UserIsHigherBot": "**Mi cargo** debe ser **superior** al cargo del miembro que usted quiere expulsar.",
       "UserIsHigherYou": "**Su cargo** debe ser **superior** al cargo del miembro que usted quiere expulsar.",
-      "Tu": "Encerio? Quieres ser expulsado del grupo? No va a suceder!"
+      "You": "Encerio? Quieres ser expulsado del grupo? No va a suceder!"
     },
     "Ban": {
       "UserIsOwner": "No puedo banear al dueño del servidor.",
       "UserIsHigherBot": "**Mi cargo** debe ser **superior** al cargo del miembro que usted quiere banear.",
       "UserIsHigherYou": "**Su cargo** debe ser **superior** al cargo del miembro que usted quiere banear.",
-      "Tu": "Encerio? Quieres ser baneado del grupo? No va a suceder!",
+      "You": "Encerio? Quieres ser baneado del grupo? No va a suceder!",
       "UserAlreadyBanned": "**{0}** ya está baneado!\nMotivo:{1}",
       "NoReason": "Motivo no informado"
     },
@@ -500,7 +503,7 @@
       "UserIsAdmin": "No puedo castigar a los  Administradores del servidor.",
       "UserIsHigherBot": "**Mi cargo** debe ser **superior** al cargo del miembro que usted quiere castigar.",
       "UserIsHigherYou": "**Su cargo** debe ser **superior** al cargo del miembro que usted quiere castigar.",
-      "Tu": "Encerio? Quieres ser castigado del grupo? No va a suceder!",
+      "You": "Encerio? Quieres ser castigado del grupo? No va a suceder!",
       "UserAlreadyTimeouted": "**{0}** ya está castigado!\nExpira {1}",
       "NoReason": "Motivo no informado",
       "Timeout60": "60 Segundos",
@@ -566,7 +569,6 @@
       "IsLottie": "❌ Sticker nativas no son soportadas."
     },
     "Role": {
-      "AuditLogReason": "Solicitado por {0}|{1}",
       "AddSuccess": "Cargo {0} fué agregado al {1}!",
       "RemoveSuccess": "Cargo {0} fué borrado de {1}!"
     },
