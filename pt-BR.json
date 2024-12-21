@@ -454,7 +454,7 @@
       "NoResults": "Nenhum resultado encontrado."
     },
     "Report": {
-      "RequiredUserMessage": "Apenas mensagens enviada por outros usuário podem ser reportadas.",
+      "RequiredUserMessage": "Apenas mensagens enviada por outros usuários/apps podem ser reportadas.",
       "MessageExceededLimitDate": "Você só pode reportar mensagens enviadas em até **14 dias**.",
       "MessageEmpty": "Não é possível reportar mensagem sem conteúdo.",
       "WaitTime": "Você pode fazer um novo reporte {0}.",
@@ -479,7 +479,7 @@
       "ActionBan": "{0} baniu o autor.",
       "ActionBanAndResolved": "{0} baniu o autor e reporte **foi resolvido**.",
       "ActionTimeout": "{0} castigou o autor por `{1}`.",
-      "ContentHeader": "## {0} reportou uma mensagem de {1} em <#{2}>",
+      "ContentHeader": "### {0} reportou uma mensagem de {1} em <#{2}>",
       "Success": "🚩 Mensagem reportada para a equipe do servidor.",
       "MessageReported": "🚩 Está mensagem já foi reportada.",
       "MessageReportedYou": "🚩 Você já reportou está mensagem."
