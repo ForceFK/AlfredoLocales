@@ -142,7 +142,7 @@
       "Speak": "Speak",
       "Stream": "Video",
       "UseSoundboard": "Use Soundboard",
-      //USE_EXTERNAL_SOUNDS
+      "UseExternalSounds": "Use External Sounds",
       "UseVAD": "Use Voice Activity",
       "PrioritySpeaker": "Priority Speaker",
       "MuteMembers": "Mute Members",
@@ -156,7 +156,7 @@
 
       "RequestToSpeak": "Request to Speak",
 
-      //CREATE_EVENTS
+      "CreateEvents": "Create Events",
       "ManageEvents": "Manage Events",
 
       "Administrator": "Administrator",
