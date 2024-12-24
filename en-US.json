@@ -66,7 +66,9 @@
       "ShowVariables": "Available Variables",
       "TryAgain": "Try Again",
       "Loading": "Loading...",
-      "AuditLogReason": "Requested by: {0}|{1}"
+      "AuditLogReason": "Requested by: {0}|{1}",
+      "SupportServer": "Support Server",
+      "Invite": "https://discord.gg/fJrnPuP6w3"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "The bot **does not have the necessary permissions** to execute this command.",
@@ -80,7 +82,7 @@
       "AnotherUser": "Oops, this command is from <@{0}>",
       "NoPermViewChannel": "I don't have permission to view channel {0}.",
       "NoPermWriteInChannel": "I don't have permission to send message on channel {0}.",
-      "InternalError": "An internal error occurred, report to the bot team.\n-# Code: `{0}`",
+      "InternalError": "**An unexpected error occurred while the command was being executed.**\n-# Code: `{0}`\n\n> The incident has already been forwarded to the bot developers.\n> For more information, visit the support server.",
       "InvalidParams": "Invalid parameters, check if you are using the command correctly.",
       "RoleIsManaged": "You cannot assign/remove a managed role to a user.",
       "RoleIsEveryone": "The Everyone role cannot be added or removed.",
@@ -272,7 +274,7 @@
       "EditFields": "Edit Fields",
       "ImportJson": "Import JSON",
       "ImportJsonPlaceholder": "Paste here a JSON code that you exported previously",
-      "ImportJsonFail": "Please check your JSON code and try again.",
+      "ImportJsonFail": "Please check your JSON code and try again.\n-# {0}",
       "ExportJson": "Export JSON",
       "AuthorHeader": "Change embed author",
       "AuthorPlaceholder": "It will be at the beginning of the embed, above all else",

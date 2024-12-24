@@ -66,7 +66,9 @@
       "ShowVariables": "Variáveis Disponíveis",
       "TryAgain": "Tentar Novamente",
       "Loading": "Carregando...",
-      "AuditLogReason": "Solicitado por {0}|{1}"
+      "AuditLogReason": "Solicitado por {0}|{1}",
+      "SupportServer": "Servidor de Suporte",
+      "Invite": "https://discord.gg/fJrnPuP6w3"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "O bot **não tem as permissões** necessárias para executar esse comando.",
@@ -80,7 +82,7 @@
       "AnotherUser": "Opa, este comando é do <@{0}>",
       "NoPermViewChannel": "Eu não tenho permissão para ver canal {0}.",
       "NoPermWriteInChannel": "Eu não tenho permissão para enviar mensagem no canal {0}.",
-      "InternalError": "Ocorreu um erro interno, reporte a equipe do bot.\n-# Código: `{0}`",
+      "InternalError": "**Ocorreu um erro inesperado enquanto o comando estava sendo executado.**\n-# Código: `{0}`\n\n> O ocorrido já foi encaminhado para os desenvolvedores do bot.\n> Para mais informações visite o servidor de suporte.",
       "InvalidParams": "Parâmetros inválidos, verifique se você está usando o comando corretamente.",
       "RoleIsManaged": "Não é possível atribuir/remover um cargo gerenciado a um usuário.",
       "RoleIsEveryone": "O cargo Everyone não pode ser adicionado nem removido.",
@@ -272,7 +274,7 @@
       "EditFields": "Editar Campos",
       "ImportJson": "Importar JSON",
       "ImportJsonPlaceholder": "Cole aqui um código JSON que você exportou anteriormente",
-      "ImportJsonFail": "Verifique seu código JSON e tente novamente.",
+      "ImportJsonFail": "Verifique seu código JSON e tente novamente.\n-# {0}",
       "ExportJson": "Exportar JSON",
       "AuthorHeader": "Alterar autor do embed",
       "AuthorPlaceholder": "Ficará no começo do embed, acima de tudo",
