@@ -68,7 +68,8 @@
       "Loading": "Carregando...",
       "AuditLogReason": "Solicitado por {0}|{1}",
       "SupportServer": "Servidor de Suporte",
-      "Invite": "https://discord.gg/fJrnPuP6w3"
+      "Invite": "https://discord.gg/fJrnPuP6w3",
+      "NoReason": "Sem motivo informado"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "O bot **não tem as permissões** necessárias para executar esse comando.",
@@ -498,7 +499,6 @@
       "UserIsHigherYou": "**Seu cargo** deve ser **superior** ao cargo do membro que você quer banir.",
       "You": "É serio? Quer se banir do grupo? Não vai rolar!",
       "UserAlreadyBanned": "**{0}** já está banido!\nMotivo:{1}",
-      "NoReason": "Sem motivo informado"
     },
     "Timeout": {
       "UserIsOwner": "Não posso castigar o dono do servidor.",
@@ -507,7 +507,6 @@
       "UserIsHigherYou": "**Seu cargo** deve ser **superior** ao cargo do membro que você quer castigar.",
       "You": "É serio? Quer se castigar do grupo? Não vai rolar!",
       "UserAlreadyTimeouted": "**{0}** já está castigado!\nExpira {1}",
-      "NoReason": "Sem motivo informado",
       "Timeout60": "60 Segundos",
       "Timeout300": "5 Minutos",
       "Timeout600": "10 Minutos",
@@ -572,7 +571,9 @@
     },
     "Role": {
       "AddSuccess": "Cargo {0} foi adicionado ao {1}!",
-      "RemoveSuccess": "Cargo {0} foi removido do {1}!"
+      "AddSuccessDuration": "Cargo {0} foi adicionado ao {1}!\nSerá removido {2}",
+      "RemoveSuccess": "Cargo {0} foi removido do {1}!",
+      "AuditLogReasonDuration": "Solicitado por {0}|{1}|{2}"
     },
     "Correios": {
       "RastrearNoneInfo": "Não é possível exibir informações para o código informado.",

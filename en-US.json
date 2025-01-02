@@ -68,7 +68,8 @@
       "Loading": "Loading...",
       "AuditLogReason": "Requested by: {0}|{1}",
       "SupportServer": "Support Server",
-      "Invite": "https://discord.gg/fJrnPuP6w3"
+      "Invite": "https://discord.gg/fJrnPuP6w3",
+      "NoReason": "No reason provided"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "The bot **does not have the necessary permissions** to execute this command.",
@@ -498,7 +499,6 @@
       "UserIsHigherYou": "**You role** it must be **upper** to the position of the member you want to ban.",
       "You": "It is serious? Do you want to banish yourself from the group? It won't happen!",
       "UserAlreadyBanned": "**{0}** It's already banned!\nReason:{1}",
-      "NoReason": "No reason provided"
     },
     "Timeout": {
       "UserIsOwner": "I can't timeout the server owner.",
@@ -507,7 +507,6 @@
       "UserIsHigherYou": "**You role** it must be **upper** to the position of the member you want to timeout.",
       "You": "It is serious? Do you want to timeout yourself from the group? It won't happen!",
       "UserAlreadyTimeouted": "**{0}** You are already timeouted!\nExpires {1}",
-      "NoReason": "No reason provided",
       "Timeout60": "60 Seconds",
       "Timeout300": "5 Minutes",
       "Timeout600": "10 Minutes",

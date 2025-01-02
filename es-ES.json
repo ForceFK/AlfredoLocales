@@ -68,7 +68,8 @@
       "Loading": "Cargando...",
       "AuditLogReason": "Solicitado por {0}|{1}",
       "SupportServer": "Servidor de soporte",
-      "Invite": "https://discord.gg/fJrnPuP6w3"
+      "Invite": "https://discord.gg/fJrnPuP6w3",
+      "NoReason": "Motivo no informado"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "El bot **no tiene los permisos necesarios** para ejecutar este comando.",
@@ -497,8 +498,7 @@
       "UserIsHigherBot": "**Mi cargo** debe ser **superior** al cargo del miembro que usted quiere banear.",
       "UserIsHigherYou": "**Su cargo** debe ser **superior** al cargo del miembro que usted quiere banear.",
       "You": "Encerio? Quieres ser baneado del grupo? No va a suceder!",
-      "UserAlreadyBanned": "**{0}** ya está baneado!\nMotivo:{1}",
-      "NoReason": "Motivo no informado"
+      "UserAlreadyBanned": "**{0}** ya está baneado!\nMotivo:{1}"
     },
     "Timeout": {
       "UserIsOwner": "No puedo castigar al dueño del servidor.",
@@ -507,7 +507,6 @@
       "UserIsHigherYou": "**Su cargo** debe ser **superior** al cargo del miembro que usted quiere castigar.",
       "You": "Encerio? Quieres ser castigado del grupo? No va a suceder!",
       "UserAlreadyTimeouted": "**{0}** ya está castigado!\nExpira {1}",
-      "NoReason": "Motivo no informado",
       "Timeout60": "60 Segundos",
       "Timeout300": "5 Minutos",
       "Timeout600": "10 Minutos",
