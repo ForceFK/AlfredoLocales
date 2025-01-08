@@ -66,10 +66,11 @@
       "ShowVariables": "Available Variables",
       "TryAgain": "Try Again",
       "Loading": "Loading...",
-      "AuditLogReason": "Requested by: {0}|{1}",
+      "AuditLogReason": "Requested by {0}|{1}",
       "SupportServer": "Support Server",
       "Invite": "https://discord.gg/fJrnPuP6w3",
-      "NoReason": "No reason provided"
+      "NoReason": "No reason provided",
+      "PlayAgain": "Play again"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "The bot **does not have the necessary permissions** to execute this command.",
@@ -498,7 +499,7 @@
       "UserIsHigherBot": "**My role** it must be **upper** to the position of the member you want to ban.",
       "UserIsHigherYou": "**You role** it must be **upper** to the position of the member you want to ban.",
       "You": "It is serious? Do you want to banish yourself from the group? It won't happen!",
-      "UserAlreadyBanned": "**{0}** It's already banned!\nReason:{1}",
+      "UserAlreadyBanned": "**{0}** It's already banned!\nReason:{1}"
     },
     "Timeout": {
       "UserIsOwner": "I can't timeout the server owner.",
@@ -571,11 +572,23 @@
     },
     "Role": {
       "AddSuccess": "Role {0} has been added to {1}!",
-      "RemoveSuccess": "Role {0} was removed from the {1}!"
+      "AddSuccessDuration": "Role {0} has been added to {1}!\nIt will be removed {2}",
+      "RemoveSuccess": "Role {0} was removed from the {1}!",
+      "AuditLogReasonDuration": "Requested by: {0}|{1}|{2}"
     },
     "Correios": {
       "RastrearNoneInfo": "Unable to display information for the given code.",
       "RastrearRecentPackage": "\n\n*Your package was recently posted and cannot yet be tracked.*"
+    },
+    "TicTacToe": {
+      "Header": "{0} **`X`** vs **`O`** {1}",
+      "StartPlayer": "\n\n**`{0}`** <@{1}> starts playing!",
+      "CurrentPlayer": "\n\nPlaying: **`{0}`** <@{1}>",
+      "Winner": "<@{0}> winner!",
+      "Draw": "Deu Velha!",
+      "NotParticipate": "You do not participate in this game.",
+      "UserBOT": "Other BOTs cannot play.",
+      "UserYou": "Hey, are you going to play game with yourself? How?"
     }
   }
 }

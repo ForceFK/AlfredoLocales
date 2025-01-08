@@ -69,7 +69,8 @@
       "AuditLogReason": "Solicitado por {0}|{1}",
       "SupportServer": "Servidor de Suporte",
       "Invite": "https://discord.gg/fJrnPuP6w3",
-      "NoReason": "Sem motivo informado"
+      "NoReason": "Sem motivo informado",
+      "PlayAgain" :  "Jogar novamente"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "O bot **não tem as permissões** necessárias para executar esse comando.",
@@ -578,6 +579,16 @@
     "Correios": {
       "RastrearNoneInfo": "Não é possível exibir informações para o código informado.",
       "RastrearRecentPackage": "\n\n*Se seu objeto foi postado recentemente e ainda não pode ser rastreado.*"
+    },
+    "TicTacToe": {
+      "Header": "{0} **`X`** vs **`O`** {1}",
+      "StartPlayer": "\n\n**`{0}`** <@{1}> começa jogando!",
+      "CurrentPlayer": "\n\nJogando: **`{0}`** <@{1}>",
+      "Winner": "<@{0}> venceu!",
+      "Draw": "Deu Velha!",
+      "NotParticipate": "Você não participa deste jogo.",
+      "UserBOT": "Os outros BOTs não podem jogar.",
+      "UserYou": "Ué, vai jogar com você mesmo? Como?"
     }
   }
 }

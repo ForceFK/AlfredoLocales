@@ -69,7 +69,8 @@
       "AuditLogReason": "Solicitado por {0}|{1}",
       "SupportServer": "Servidor de soporte",
       "Invite": "https://discord.gg/fJrnPuP6w3",
-      "NoReason": "Motivo no informado"
+      "NoReason": "Motivo no informado",
+      "PlayAgain": "Jugar de nuevo"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "El bot **no tiene los permisos necesarios** para ejecutar este comando.",
@@ -571,11 +572,23 @@
     },
     "Role": {
       "AddSuccess": "Cargo {0} fué agregado al {1}!",
-      "RemoveSuccess": "Cargo {0} fué borrado de {1}!"
+      "AddSuccessDuration": "Cargo {0} fué agregado al {1}!\nSe eliminará {2}",
+      "RemoveSuccess": "Cargo {0} fué borrado de {1}!",
+      "AuditLogReasonDuration": "Solicitado por {0}|{1}|{2}"
     },
     "Correios": {
       "RastrearNoneInfo": "No es posible mostrar Informaciones para el código informado.",
       "RastrearRecentPackage": "\n\n*Si su objeto fué publicado recientemente  aun no puede ser rastreado.*"
+    },
+    "TicTacToe": {
+      "Header": "{0} **`X`** vs **`O`** {1}",
+      "StartPlayer": "\n\n¡**`{0}`** <@{1}> empieza a jugar!",
+      "CurrentPlayer": "\n\nJugando: **`{0}`** <@{1}>",
+      "Winner": "¡<@{0}> ganó!",
+      "Draw": "¡Empate!",
+      "NotParticipate": "No participas en este juego.",
+      "UserBOT": "Otros BOT no pueden jugar.",
+      "UserYou": "Oye, ¿vas a jugar contigo mismo? ¿Como?"
     }
   }
 }
