@@ -70,7 +70,8 @@
       "SupportServer": "Support Server",
       "Invite": "https://discord.gg/fJrnPuP6w3",
       "NoReason": "No reason provided",
-      "PlayAgain": "Play again"
+      "PlayAgain": "Play again",
+      "TempRoles": "Temporary Roles"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "The bot **does not have the necessary permissions** to execute this command.",
@@ -236,7 +237,8 @@
       "Roles": "Roles ({0}):",
       "ButtonAvatar": "View avatar",
       "IsTimeOuted": "Remove timeout:",
-      "ButtonLevels": "View rank"
+      "ButtonLevels": "View rank",
+      "NoneTempRole": "No temporary roles were found."
     },
     "Avatar": {
       "GlobalWarn": "This user has avatar\npersonalized on the server.",
@@ -572,9 +574,10 @@
     },
     "Role": {
       "AddSuccess": "Role {0} has been added to {1}!",
-      "AddSuccessDuration": "Role {0} has been added to {1}!\nIt will be removed {2}",
+      "AddSuccessDuration": "Role {0} has been added to {1}!\nIt will be removed {2} ({3})",
       "RemoveSuccess": "Role {0} was removed from the {1}!",
-      "AuditLogReasonDuration": "Requested by: {0}|{1}|{2}"
+      "FreeLimit": "You have reached the limit of **50** active temporary roles, please remove some or become **premium** and don't worry about limits!",
+      "AuditLogReasonTempRoleRemove": "Temporary Role"
     },
     "Correios": {
       "RastrearNoneInfo": "Unable to display information for the given code.",

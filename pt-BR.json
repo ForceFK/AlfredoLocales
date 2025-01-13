@@ -70,7 +70,8 @@
       "SupportServer": "Servidor de Suporte",
       "Invite": "https://discord.gg/fJrnPuP6w3",
       "NoReason": "Sem motivo informado",
-      "PlayAgain" :  "Jogar novamente"
+      "PlayAgain": "Jogar novamente",
+      "TempRoles": "Cargos Temporários"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "O bot **não tem as permissões** necessárias para executar esse comando.",
@@ -236,7 +237,8 @@
       "Roles": "Cargos ({0}):",
       "ButtonAvatar": "Ver avatar",
       "IsTimeOuted": "Remoção do castigo:",
-      "ButtonLevels": "Ver rank"
+      "ButtonLevels": "Ver rank",
+      "NoneTempRole": "Nenhum cargo temporário foi encontrado."
     },
     "Avatar": {
       "GlobalWarn": "Este usuário possui um avatar\npersonalizado no servidor.",
@@ -572,9 +574,10 @@
     },
     "Role": {
       "AddSuccess": "Cargo {0} foi adicionado ao {1}!",
-      "AddSuccessDuration": "Cargo {0} foi adicionado ao {1}!\nSerá removido {2}",
+      "AddSuccessDuration": "Cargo {0} foi adicionado ao {1}!\nSerá removido {2} ({3})",
       "RemoveSuccess": "Cargo {0} foi removido do {1}!",
-      "AuditLogReasonDuration": "Solicitado por {0}|{1}|{2}"
+      "FreeLimit": "Você alcançou o limite de **50** cargos temporários ativos, remova alguns ou se torne **premium** e não se preocupe com limites!",
+      "AuditLogReasonTempRoleRemove": "Cargo Temporário"
     },
     "Correios": {
       "RastrearNoneInfo": "Não é possível exibir informações para o código informado.",
