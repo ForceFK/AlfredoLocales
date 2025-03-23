@@ -460,7 +460,7 @@
       "Header": "SETUP | Canal Temporário",
       "EmbedMainDescription": "Um canal de voz temporário é criado quando alguém entra no **Canal Criador** e é excluído quando não há mais ninguém nele.",
       "FieldHeaderCreatorChannel": "Canal Criador",
-      "FieldCreatorChannel": "-# Você pode alterar livremente o nome da categoria e canal.\n<#{0}>\n-# :warning: **Alterar de categoria o canal criador** poderá ocasionar erros ou permissões incorretas.",
+      "FieldCreatorChannel": "-# <:yes:1352711167830659092> Você pode alterar livremente o **nome** da **categoria** e **canal**.\n-# <:yes:1352711167830659092> Você pode alterar as **permissões everyone** do **canal criador**.\n-# <:no:1352711085119246356> **Alterar de categoria o canal criador** poderá ocasionar erros ou permissões incorretas.\n<#{0}>",
       "FieldHeaderCreateChannelName": "Nome dos canais criados",
 
       "CreatorCategoryName": "Canais Temporários",
@@ -474,13 +474,13 @@
       "AllowedButtons": "Funções ativas (botões no painel de controle):",
       "AllowedBoosterButtons": "Funções permitidas apenas para boosters:",
 
-      "DefaultCreateChannelNameVariables": "`{user.name}` = Nome de usuário do membro.\n`{user.nickname}` = Apelido do usuário no servidor ou o nome de exibição"
+      "DefaultCreateChannelNameVariables": "`{user}` = Nome de usuário do membro.\n`{user.nickname}` = Apelido do usuário no servidor ou o nome de exibição.\n`{user.id}` = ID numérico do membro.\n`{guild}` = Nome do grupo"
 
     },
     "TempVoice": {
       "HeaderPanel": "<a:engine:758034388578467961> Painel | Canal Temporário",
       "WarnWaitingTime": "{0}, você poderá criar um novo canal {1}",
-      "DefaultCreateChannelName": "{user.name}",
+      "DefaultCreateChannelName": "{user}",
       "BoosterRequired": "<a:booster_animad:1352858258666422322> Para usar esse comando, você precisa impulsionar o servidor.",
       "OwnerRequired": "Você não é o dono do canal!",
       "OwnerIsYou": "Você já é o dono do canal!",
