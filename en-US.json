@@ -528,6 +528,7 @@
       "UnBlock": "Unblock",
       "ClaimChannel": "Claim",
       "TransferOwner": "Transfer",
+      "UseSoundboard": "Soundboard",
 
       "LockUnLockDesc": "- **Lock**: Prevents regular members from entering your channel.",
       "HiddenShowDesc": "- **Hide**: Hides your channel from regular members.",
@@ -540,7 +541,8 @@
       "BlockDesc": "- **Block**: Prevents the member from connecting to the call or seeing the text chat.",
       "UnBlockDesc": "- **Unblock**: Removes the restriction.",
       "ClaimChannelDesc": "- **Claim**: Obtains channel ownership if the owner is not connected.",
-      "TransferOwnerDesc": "- **Transfer**: Transfers channel ownership to another connected member."
+      "TransferOwnerDesc": "- **Transfer**: Transfers channel ownership to another connected member.",
+      "UseSoundboardDesc": "- **Soundboard**: Enables/disables the sound effects panel."
     },
     "YouTube": {
       "NoResults": "None result found."

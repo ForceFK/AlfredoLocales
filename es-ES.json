@@ -528,6 +528,7 @@
       "UnBlock": "Desbloquear",
       "ClaimChannel": "Reclamar",
       "TransferOwner": "Transferir",
+      "UseSoundboard": "Efectos de Sonido",
 
       "LockUnLockDesc": "- **Bloquear**: Impide que los miembros comunes entren en tu canal.",
       "HiddenShowDesc": "- **Ocultar**: Oculta tu canal para los miembros comunes.",
@@ -540,7 +541,8 @@
       "BlockDesc": "- **Bloquear**: Impide que el miembro se conecte a la llamada o vea el chat de texto.",
       "UnBlockDesc": "- **Desbloquear**: Elimina la restricción.",
       "ClaimChannelDesc": "- **Reclamar**: Obtiene la propiedad del canal si el dueño no está conectado.",
-      "TransferOwnerDesc": "- **Transferir**: Transfiere la propiedad del canal a otro miembro conectado."
+      "TransferOwnerDesc": "- **Transferir**: Transfiere la propiedad del canal a otro miembro conectado.",
+      "UseSoundboardDesc": "- **Efectos de Sonido**: Habilita/deshabilita el panel de efectos de sonido."
     },
     "YouTube": {
       "NoResults": "Ningún resultado encontrado."
