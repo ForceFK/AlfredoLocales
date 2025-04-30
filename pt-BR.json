@@ -323,7 +323,9 @@
       "WebHookUrl": "WebHook Url",
       "SendThisChannel": "Enviar aqui",
       "SelectWebhook": "Selecione um WebHook",
-      "CreateWebhook": "Crie um WebHook nas configurações do canal"
+      "CreateWebhook": "Crie um WebHook nas configurações do canal",
+      "ButtonLink": "Botão Link",
+      "NewButtonLink": "Novo Botão"
     },
     "Server": {
       "Channels": "Canais ({0})",
