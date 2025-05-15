@@ -503,7 +503,7 @@
       "ClaimChannelFail": "<:no:1352711085119246356> No se puede reclamar el canal.",
       "NewOwnerWarn": ":crown: Nuevo dueño del canal: {0}",
       "ChangeOwnerAPP": "No puedes transferir la propiedad a una APP.",
-      "TranferOwnerTimeOut": "Puedes reclamar la propiedad nuevamente {0}.",
+      "TranferOwnerTimeOut": "Puedes transferir la propiedad nuevamente {0}.",
       "TransferOwnerSuccess": "<:yes:1352711167830659092> La propiedad fue transferida con éxito a {0}!",
       "TransferOwnerFail": "<:no:1352711085119246356> No se pudo transferir la propiedad a {0}.",
       "TrustNoneUser": "Ningún usuario fue confiado.",

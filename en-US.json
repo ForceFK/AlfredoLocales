@@ -503,7 +503,7 @@
       "ClaimChannelFail": "<:no:1352711085119246356> The channel cannot be claimed.",
       "NewOwnerWarn": ":crown: New channel owner: {0}",
       "ChangeOwnerAPP": "You cannot transfer ownership to an APP.",
-      "TranferOwnerTimeOut": "You can claim ownership again {0}.",
+      "TranferOwnerTimeOut": "You can transfer ownership again {0}.",
       "TransferOwnerSuccess": "<:yes:1352711167830659092> Ownership successfully transferred to {0}!",
       "TransferOwnerFail": "<:no:1352711085119246356> Ownership could not be transferred to {0}.",
       "TrustNoneUser": "No user was trusted.",
