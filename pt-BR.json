@@ -504,7 +504,7 @@
       "ClaimChannelFail": "<:no:1352711085119246356> O canal não pode ser reivindicado.",
       "NewOwnerWarn": ":crown: Novo dono do canal: {0}",
       "ChangeOwnerAPP": "Você não pode passar dono para um APP.",
-      "TranferOwnerTimeOut": "Você pode reivindicar o dono novamente {0}.",
+      "TranferOwnerTimeOut": "Você pode transferir o dono novamente {0}.",
       "TransferOwnerSuccess": "<:yes:1352711167830659092> Dono foi transferido com sucesso para {0}!",
       "TransferOwnerFail": "<:no:1352711085119246356> Não foi possível transferir dono para {0}.",
       "TrustNoneUser": "Nenhum usuário foi confiado.",
