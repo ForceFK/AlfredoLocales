@@ -531,6 +531,7 @@
       "ClaimChannel": "Reclamar",
       "TransferOwner": "Transferir",
       "UseSoundboard": "Efectos de Sonido",
+      "UseVAD": "Usar Actividad de voz",
 
       "LockUnLockDesc": "- **Bloquear**: Impide que los miembros comunes entren en tu canal.",
       "HiddenShowDesc": "- **Ocultar**: Oculta tu canal para los miembros comunes.",
@@ -544,7 +545,8 @@
       "UnBlockDesc": "- **Desbloquear**: Elimina la restricción.",
       "ClaimChannelDesc": "- **Reclamar**: Obtiene la propiedad del canal si el dueño no está conectado.",
       "TransferOwnerDesc": "- **Transferir**: Transfiere la propiedad del canal a otro miembro conectado.",
-      "UseSoundboardDesc": "- **Efectos de Sonido**: Habilita/deshabilita el panel de efectos de sonido."
+      "UseSoundboardDesc": "- **Efectos de Sonido**: Habilita/deshabilita el panel de efectos de sonido.",
+      "UseVADDesc": "- **Usar Actividad de voz**: Cuando está desactivado, será obligatorio el uso de \"Pulsar para hablar\"."
     },
     "YouTube": {
       "NoResults": "Ningún resultado encontrado."

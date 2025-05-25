@@ -532,6 +532,7 @@
       "ClaimChannel": "Reivindicar",
       "TransferOwner": "Transferir",
       "UseSoundboard": "Efeitos sonoros",
+      "UseVAD": "Usar Detecção de voz",
 
       "LockUnLockDesc": "- **Trancar**: Impede que os membros comuns entrem no seu canal.",
       "HiddenShowDesc": "- **Ocultar**: Oculta seu canal para membros comuns.",
@@ -545,7 +546,8 @@
       "UnBlockDesc": "- **Desbloquear**: Remove a restrição.",
       "ClaimChannelDesc": "- **Reivindicar**: Obtêm dono do canal caso o dono não esteja conectado.",
       "TransferOwnerDesc": "- **Transferir**: Transfere o dono do canal para outro membro conectado.",
-      "UseSoundboardDesc": "- **Efeitos sonoros**: Ativa/desativa o painel de efeitos sonoros."
+      "UseSoundboardDesc": "- **Efeitos sonoros**: Ativa/desativa o painel de efeitos sonoros.",
+      "UseVADDesc": "- **Usar Detecção de voz**: Quando desativado, será obrigatório o uso do \"Aperte para Falar\"."
     },
     "YouTube": {
       "NoResults": "Nenhum resultado encontrado."

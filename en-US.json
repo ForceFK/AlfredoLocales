@@ -531,6 +531,7 @@
       "ClaimChannel": "Claim",
       "TransferOwner": "Transfer",
       "UseSoundboard": "Soundboard",
+      "UseVAD": "Use Voice Activity",
 
       "LockUnLockDesc": "- **Lock**: Prevents regular members from entering your channel.",
       "HiddenShowDesc": "- **Hide**: Hides your channel from regular members.",
@@ -544,7 +545,8 @@
       "UnBlockDesc": "- **Unblock**: Removes the restriction.",
       "ClaimChannelDesc": "- **Claim**: Obtains channel ownership if the owner is not connected.",
       "TransferOwnerDesc": "- **Transfer**: Transfers channel ownership to another connected member.",
-      "UseSoundboardDesc": "- **Soundboard**: Enables/disables the sound effects panel."
+      "UseSoundboardDesc": "- **Soundboard**: Enables/disables the sound effects panel.",
+      "UseVADDesc": "- **Use Voice Activity**: When disabled, Push-to-Talk will be required."
     },
     "YouTube": {
       "NoResults": "None result found."
