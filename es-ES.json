@@ -347,9 +347,9 @@
       "UserIsBot": "{0} es un bot y por eso no tiene un rank.",
       "UserNoRank": "{0} aún no tiene un rank.",
       "YouNoRank": "Usted aún no tiene un rank, converse o hable un poco en algún chat...",
-      "EmbedDescription": ":medal: **Posición en el Rank:** {0}º\n:star: **Nível:** {1}\n:speech_balloon: **Mensajes:** {2}",
-      "EmbedFieldProgress": ":arrow_up: Progreso ({0}/{1} EXP)",
-      "YouLevelNextReward": "Su próxima recompensa será en el nível {0}"
+      "Description": ":medal: **Posición en el Rank:** {0}º\n:star: **Nível:** {1}\n:speech_balloon: **Mensajes:** {2}",
+      "HeaderProgress": ":arrow_up: **Progreso** ({0}/{1} EXP)",
+      "YouLevelNextReward": "-# Su próxima recompensa será en el nível {0}"
     },
     "Leaderboard": {
       "LevelsTitle": "Ranking General | Página {0}",
@@ -475,7 +475,22 @@
       "AllowedButtons": "Funciones activas (botones en el panel de control):",
       "AllowedBoosterButtons": "Funciones permitidas solo para boosters:",
 
-      "DefaultCreateChannelNameVariables": "`{user}` = Nombre de usuario del miembro.\n`{user.nickname}` = Apodo del miembro en el servidor o nombre para mostrar.\n`{user.id}` = ID numérica del miembro.\n`{guild}` = Nombre del grupo"
+      "DefaultCreateChannelNameVariables": "`{user}` = Nombre de usuario del miembro.\n`{user.nickname}` = Apodo del miembro en el servidor o nombre para mostrar.\n`{user.id}` = ID numérica del miembro.\n`{guild}` = Nombre del grupo",
+
+      "LockUnLockDesc": "- **Bloquear**: Impide que los miembros comunes entren en tu canal.",
+      "HiddenShowDesc": "- **Ocultar**: Oculta tu canal para los miembros comunes.",
+      "NSFWDesc": "- **NSFW**: Activa la restricción de edad.",
+      "DeleteDesc": "- **Eliminar**: Borra tu canal.",
+      "LimitDesc": "- **Limitar**: Limita el número de miembros en la llamada.",
+      "DisconnectDesc": "- **Desconectar**: Elimina a un usuario de la llamada.",
+      "TrustDesc": "- **Confiar**: Permite que el miembro vea/entre en tu canal cuando esté oculto/bloqueado.",
+      "UnTrustDesc": "- **Desconfiar**: Elimina el acceso libre.",
+      "BlockDesc": "- **Bloquear**: Impide que el miembro se conecte a la llamada o vea el chat de texto.",
+      "UnBlockDesc": "- **Desbloquear**: Elimina la restricción.",
+      "ClaimChannelDesc": "- **Reclamar**: Obtiene la propiedad del canal si el dueño no está conectado.",
+      "TransferOwnerDesc": "- **Transferir**: Transfiere la propiedad del canal a otro miembro conectado.",
+      "UseSoundboardDesc": "- **Efectos de Sonido**: Habilita/deshabilita el panel de efectos de sonido.",
+      "UseVADDesc": "- **Usar Actividad de voz**: Cuando está desactivado, será obligatorio el uso de \"Pulsar para hablar\"."
     },
     "TempVoice": {
       "HeaderPanel": "<a:engine:758034388578467961> Panel | Canal Temporal",
@@ -512,6 +527,8 @@
       "UnTrustNoneUser": "Ningún usuario fue eliminado de la lista de confianza.",
       "UnTrustLoading": "<a:loading:1352710970786582528> Eliminando de la lista de confianza a **{0}** usuarios, espera...",
       "UnTrustSuccess": "<:yes:1352711167830659092> {0} fueron eliminados de la lista de confianza en este canal de voz.",
+      "MoreOptions": "Más Opciones",
+      "CurrentOwner": "-# :crown: Propietario del canal: {0}",
 
       "LockUnLock": "Bloquear/Desbloquear",
       "HiddenShow": "Ocultar/Mostrar",
@@ -533,20 +550,15 @@
       "UseSoundboard": "Efectos de Sonido",
       "UseVAD": "Usar Actividad de voz",
 
-      "LockUnLockDesc": "- **Bloquear**: Impide que los miembros comunes entren en tu canal.",
-      "HiddenShowDesc": "- **Ocultar**: Oculta tu canal para los miembros comunes.",
-      "NSFWDesc": "- **NSFW**: Activa la restricción de edad.",
-      "DeleteDesc": "- **Eliminar**: Borra tu canal.",
-      "LimitDesc": "- **Limitar**: Limita el número de miembros en la llamada.",
-      "DisconnectDesc": "- **Desconectar**: Elimina a un usuario de la llamada.",
-      "TrustDesc": "- **Confiar**: Permite que el miembro vea/entre en tu canal cuando esté oculto/bloqueado.",
-      "UnTrustDesc": "- **Desconfiar**: Elimina el acceso libre.",
-      "BlockDesc": "- **Bloquear**: Impide que el miembro se conecte a la llamada o vea el chat de texto.",
-      "UnBlockDesc": "- **Desbloquear**: Elimina la restricción.",
-      "ClaimChannelDesc": "- **Reclamar**: Obtiene la propiedad del canal si el dueño no está conectado.",
-      "TransferOwnerDesc": "- **Transferir**: Transfiere la propiedad del canal a otro miembro conectado.",
-      "UseSoundboardDesc": "- **Efectos de Sonido**: Habilita/deshabilita el panel de efectos de sonido.",
-      "UseVADDesc": "- **Usar Actividad de voz**: Cuando está desactivado, será obligatorio el uso de \"Pulsar para hablar\"."
+      "LockUnLockHiddenShowDesc": "**Bloquear** tu canal impide que los miembros sin lista blanca se conecten o lean el chat de texto, pero pueden verlo en la lista de canales.\n**Ocultar** impide que los miembros sin lista blanca vean o entren al canal.",
+      "LimitDisconnectDesc": "**Limita** el número de miembros que pueden conectarse al canal de voz.\n**Desconectar** eliminará a un usuario del canal de voz.",
+      "UseSoundboardUseVADDesc": "Activa/desactiva el panel de **efectos de sonido**.\nCuando la **Detección de Voz** está desactivada, se requiere el uso de \"Pulsar para Hablar\".",
+      "TrustUnTrustDesc": "Permite que un miembro vea/entre a tu canal cuando esté oculto/bloqueado.\n-# Confiar elimina el bloqueo del miembro.",
+      "BlockUnBlockDesc": "Los miembros bloqueados no podrán ver, entrar ni interactuar en tu canal de texto.\n-# Bloquear elimina la lista blanca del miembro.",
+      "ClaimTransferOwnerDesc": "Reclama el canal si el dueño se va o transfiérelo a otro miembro conectado antes de salir.",
+      "MoreOptionsHeader": "## Más Opciones | Canal Temporal",
+      "NSFWDesc": "Activa/desactiva la restricción de edad.",
+      "DeleteDesc": "Desconecta a todos y elimina tu canal."
     },
     "YouTube": {
       "NoResults": "Ningún resultado encontrado."

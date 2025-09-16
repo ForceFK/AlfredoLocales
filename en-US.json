@@ -347,9 +347,9 @@
       "UserIsBot": "{0} is a bot and therefore does not have a rank.",
       "UserNoRank": "{0} does not yet have a rank.",
       "YouNoRank": "You still don't have a rank, talk a little in some chat...",
-      "EmbedDescription": ":medal: **Position Rank:** {0}º\n:star: **Level:** {1}\n:speech_balloon: **Menssage:** {2}",
-      "EmbedFieldProgress": ":arrow_up: Progress ({0}/{1} EXP)",
-      "YouLevelNextReward": "Your next reward will be at level {0}"
+      "Description": ":medal: **Position Rank:** {0}º\n:star: **Level:** {1}\n:speech_balloon: **Menssage:** {2}",
+      "HeaderProgress": ":arrow_up: **Progress** ({0}/{1} EXP)",
+      "YouLevelNextReward": "-# Your next reward will be at level {0}"
     },
     "Leaderboard": {
       "LevelsTitle": "Leaderboard Levels | Page {0}",
@@ -475,7 +475,22 @@
       "AllowedButtons": "Active features (buttons in the control panel):",
       "AllowedBoosterButtons": "Features allowed only for boosters:",
 
-      "DefaultCreateChannelNameVariables": "`{user}` = Member's username.\n`{user.nickname}` = Member's nickname in the server or display name.\n`{user.id}` = Member's numeric ID.\n`{guild}` = Group name"
+      "DefaultCreateChannelNameVariables": "`{user}` = Member's username.\n`{user.nickname}` = Member's nickname in the server or display name.\n`{user.id}` = Member's numeric ID.\n`{guild}` = Group name",
+
+      "LockUnLockDesc": "- **Lock**: Prevents regular members from entering your channel.",
+      "HiddenShowDesc": "- **Hide**: Hides your channel from regular members.",
+      "NSFWDesc": "- **NSFW**: Activates age restriction.",
+      "DeleteDesc": "- **Delete**: Deletes your channel.",
+      "LimitDesc": "- **Limit**: Limits the number of members in the call.",
+      "DisconnectDesc": "- **Disconnect**: Removes a user from the call.",
+      "TrustDesc": "- **Whitelist**: Allows the member to see/enter your channel when it is hidden/locked.",
+      "UnTrustDesc": "- **Remove Whitelist**: Removes free access.",
+      "BlockDesc": "- **Block**: Prevents the member from connecting to the call or seeing the text chat.",
+      "UnBlockDesc": "- **Unblock**: Removes the restriction.",
+      "ClaimChannelDesc": "- **Claim**: Obtains channel ownership if the owner is not connected.",
+      "TransferOwnerDesc": "- **Transfer**: Transfers channel ownership to another connected member.",
+      "UseSoundboardDesc": "- **Soundboard**: Enables/disables the sound effects panel.",
+      "UseVADDesc": "- **Use Voice Activity**: When disabled, Push-to-Talk will be required."
     },
     "TempVoice": {
       "HeaderPanel": "<a:engine:758034388578467961> Panel | Temporary Channel",
@@ -512,6 +527,8 @@
       "UnTrustNoneUser": "No user was removed from the trusted list.",
       "UnTrustLoading": "<a:loading:1352710970786582528> Removing **{0}** users from the trusted list, please wait...",
       "UnTrustSuccess": "<:yes:1352711167830659092> {0} were removed from the trusted list in this voice channel.",
+      "MoreOptions": "More Options",
+      "CurrentOwner": "-# :crown: Channel Owner: {0}",
 
       "LockUnLock": "Lock/Unlock",
       "HiddenShow": "Hide/Show",
@@ -524,8 +541,8 @@
       "Delete": "Delete",
       "Limit": "Limit",
       "Disconnect": "Disconnect",
-      "Trust": "Trust",
-      "UnTrust": "Untrust",
+      "Trust": "Whitelist",
+      "UnTrust": "Remove Whitelist",
       "Block": "Block",
       "UnBlock": "Unblock",
       "ClaimChannel": "Claim",
@@ -533,20 +550,16 @@
       "UseSoundboard": "Soundboard",
       "UseVAD": "Use Voice Activity",
 
-      "LockUnLockDesc": "- **Lock**: Prevents regular members from entering your channel.",
-      "HiddenShowDesc": "- **Hide**: Hides your channel from regular members.",
-      "NSFWDesc": "- **NSFW**: Activates age restriction.",
-      "DeleteDesc": "- **Delete**: Deletes your channel.",
-      "LimitDesc": "- **Limit**: Limits the number of members in the call.",
-      "DisconnectDesc": "- **Disconnect**: Removes a user from the call.",
-      "TrustDesc": "- **Trust**: Allows the member to see/enter your channel when it is hidden/locked.",
-      "UnTrustDesc": "- **Untrust**: Removes free access.",
-      "BlockDesc": "- **Block**: Prevents the member from connecting to the call or seeing the text chat.",
-      "UnBlockDesc": "- **Unblock**: Removes the restriction.",
-      "ClaimChannelDesc": "- **Claim**: Obtains channel ownership if the owner is not connected.",
-      "TransferOwnerDesc": "- **Transfer**: Transfers channel ownership to another connected member.",
-      "UseSoundboardDesc": "- **Soundboard**: Enables/disables the sound effects panel.",
-      "UseVADDesc": "- **Use Voice Activity**: When disabled, Push-to-Talk will be required."
+      "LockUnLockHiddenShowDesc": "**Lock** your channel to prevent non-whitelisted members from connecting or reading the text chat, but they can still see it in the channel list.\n**Hide** prevents non-whitelisted members from seeing or joining the channel.",
+      "LimitDisconnectDesc": "**Limit** the number of members who can connect to the voice channel.\n**Disconnect** will remove a user from the voice channel.",
+      "UseSoundboardUseVADDesc": "Toggle the **soundboard** panel on or off.\nWhen **Voice Detection** is off, Push-to-Talk becomes mandatory.",
+      "TrustUnTrustDesc": "Allow a member to see/join your channel when it's hidden/locked.\n-# Whitelist removes the member's block.",
+      "BlockUnBlockDesc": "Blocked members cannot see, join, or interact in your text channel.\n-# Blocking removes the member's whitelist.",
+      "ClaimTransferOwnerDesc": "Claim the channel if the owner leaves, or transfer it to another connected member before leaving.",
+      "MoreOptionsHeader": "## More Options | Temporary Channel",
+      "NSFWDesc": "Toggle age restriction on or off.",
+      "DeleteDesc": "Disconnect everyone and delete your channel."
+
     },
     "YouTube": {
       "NoResults": "None result found."
