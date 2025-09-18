@@ -83,6 +83,7 @@
       "ChannelNotFound": "¡El canal especificado no se encontró!",
       "UriInvalid": "¡Proporcione una URL válida!",
       "AnotherUser": "¡Oops, este comando pertenece a <@{0}>",
+      "AnotherUserCommad": "¡Oops, este comando pertenece a <@{0}>\nEjecuta tu comando con: {1}",
       "NoPermViewChannel": "No tengo permiso para ver el canal {0}.",
       "NoPermWriteInChannel": "No tengo permiso para enviar mensajes en el canal {0}.",
       "InternalError": "**Se produjo un error inesperado al ejecutar el comando.**\n-# Code: `{0}`\n\n> El incidente ya fue enviado a los desarrolladores del bot.\n> Para obtener más información, visite el servidor de soporte .",
