@@ -558,7 +558,13 @@
       "ClaimTransferOwnerDesc": "Reivindique o canal se o dono sair ou transfira o canal para outro membro conectado antes da sua saída.",
       "MoreOptionsHeader": "## Mais Opções | Canal Temporário",
       "NSFWDesc": "Ativa/desativa restrição de idade.",
-      "DeleteDesc": "Desconecta geral e deleta seu canal."
+      "DeleteDesc": "Desconecta geral e deleta seu canal.",
+
+      "UnBlockHeader": "## Membros Bloqueados do Canal",
+      "UnBlockListEmpty": "Nenhum membro bloqueado no seu canal.",
+
+      "UnTrustHeader": "## Membros com Passe Livre",
+      "UnTrustListEmpty": "Nenhum membro com passe livre no seu canal."
     },
     "YouTube": {
       "NoResults": "Nenhum resultado encontrado."

@@ -542,7 +542,7 @@
       "Limit": "Limitar",
       "Disconnect": "Desconectar",
       "Trust": "Confiar",
-      "UnTrust": "Desconfiar",
+      "UnTrust": "Quitar Confianza",
       "Block": "Bloquear",
       "UnBlock": "Desbloquear",
       "ClaimChannel": "Reclamar",
@@ -550,15 +550,21 @@
       "UseSoundboard": "Efectos de Sonido",
       "UseVAD": "Usar Actividad de voz",
 
-      "LockUnLockHiddenShowDesc": "**Bloquear** tu canal impide que los miembros sin lista blanca se conecten o lean el chat de texto, pero pueden verlo en la lista de canales.\n**Ocultar** impide que los miembros sin lista blanca vean o entren al canal.",
+      "LockUnLockHiddenShowDesc": "**Bloquear** tu canal impide que los miembros sin lista blanca se conecten o lean el chat de texto, pero pueden verlo en la lista de canales.\n**Ocultar** impide que los miembros sin Pase Libre vean o entren al canal.",
       "LimitDisconnectDesc": "**Limita** el número de miembros que pueden conectarse al canal de voz.\n**Desconectar** eliminará a un usuario del canal de voz.",
       "UseSoundboardUseVADDesc": "Activa/desactiva el panel de **efectos de sonido**.\nCuando la **Detección de Voz** está desactivada, se requiere el uso de \"Pulsar para Hablar\".",
-      "TrustUnTrustDesc": "Permite que un miembro vea/entre a tu canal cuando esté oculto/bloqueado.\n-# Confiar elimina el bloqueo del miembro.",
-      "BlockUnBlockDesc": "Los miembros bloqueados no podrán ver, entrar ni interactuar en tu canal de texto.\n-# Bloquear elimina la lista blanca del miembro.",
+      "TrustUnTrustDesc": "Permite que un miembro vea o acceda a tu canal cuando esté oculto o bloqueado.\n-# **Confiar** elimina las restricciones del miembro.",
+      "BlockUnBlockDesc": "Los miembros bloqueados no podrán ver, entrar ni interactuar en tu canal de texto.\n-# **Bloquear** revoca la confianza del miembro.",
       "ClaimTransferOwnerDesc": "Reclama el canal si el dueño se va o transfiérelo a otro miembro conectado antes de salir.",
       "MoreOptionsHeader": "## Más Opciones | Canal Temporal",
       "NSFWDesc": "Activa/desactiva la restricción de edad.",
-      "DeleteDesc": "Desconecta a todos y elimina tu canal."
+      "DeleteDesc": "Desconecta a todos y elimina tu canal.",
+
+      "UnBlockHeader": "## Miembros Bloqueados del Canal",
+      "UnBlockListEmpty": "No hay miembros bloqueados en tu canal.",
+
+      "UnTrustHeader": "## Miembros Confiables",
+      "UnTrustListEmpty": "No hay miembros confiables en tu canal."
     },
     "YouTube": {
       "NoResults": "Ningún resultado encontrado."

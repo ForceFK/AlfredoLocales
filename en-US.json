@@ -558,8 +558,13 @@
       "ClaimTransferOwnerDesc": "Claim the channel if the owner leaves, or transfer it to another connected member before leaving.",
       "MoreOptionsHeader": "## More Options | Temporary Channel",
       "NSFWDesc": "Toggle age restriction on or off.",
-      "DeleteDesc": "Disconnect everyone and delete your channel."
+      "DeleteDesc": "Disconnect everyone and delete your channel.",
 
+      "UnBlockHeader": "## Blocked Channel Members",
+      "UnBlockListEmpty": "No blocked members in your channel.",
+
+      "UnTrustHeader": "## Whitelisted Members",
+      "UnTrustListEmpty": "No whitelisted members in your channel."
     },
     "YouTube": {
       "NoResults": "None result found."
