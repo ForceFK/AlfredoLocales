@@ -71,11 +71,50 @@
       "Invite": "https://discord.gg/fJrnPuP6w3",
       "NoReason": "Sem motivo informado",
       "PlayAgain": "Jogar novamente",
-      "TempRoles": "Cargos Temporários"
+      "TempRoles": "Cargos Temporários",
+      "SaveChanges": "Salvar Alterações",
+
+      "Status": "Status",
+      "Code": "Código",
+      "Back": "Voltar",
+      "Formated": "Formatado",
+      "Time": "Tempo",
+      "New": "Novo",
+      "AllowVariables": "Pode usar variáveis",
+      "Info": "Informações",
+      "Rename": "Renomear",
+      "Variables": "Variáveis",
+      "Save": "Salvar",
+      "Preview": "Pré-visualizar",
+      "LinkAccount": "Vincular Conta",
+      "Support": "Suporte",
+      "Name": "Nome",
+      "Date": "Data",
+      "Dates": "Datas",
+      "Change": "Alterar",
+      "ChangeArg": "Alterar {0}",
+      "Events": "Eventos",
+      "StartAt": "Começa em",
+      "EndAt": "Termina em",
+      "Stock": "Estoque",
+      "Disable": "Desativar",
+      "Enable": "Ativar",
+      "Reserved": "Reservado",
+      "Price": "Preço",
+      "Item": "Item",
+
+      "Url": "URL",
+      "UrlPlaceholder": "Link (https://...)",
+      "Optional": "Opcional",
+      "Spoiler": "Spoiler",
+      "Label": "Label",
+      "Emoji": "Emoji",
+      "Style": "Estilo"
     },
     "DiscordErrorCode": {
       "InsufficientPermissions": "O bot **não tem as permissões** necessárias para executar esse comando.",
-      "MaximumStickersReached": "Número máximo de figurinhas atingido."
+      "MaximumStickersReached": "Número máximo de figurinhas atingido.",
+      "InvalidFormBody": "### Algo deu errado ao enviar os dados para o Discord.\nPode ser que alguma informação esteja no formato errado ou não seja permitida.\n> Para obter ajuda, visite o servidor de suporte.\n\n-# Detalhes do erro:\n{0}"
     },
     "CommandError": {
       "UnknownCommand": "Não encontrei nenhum comando `{0}`.",
@@ -505,8 +544,6 @@
       "BlockLoading": "<a:loading:1352710970786582528> Bloqueando **{0}** usuários, aguarde...",
       "BlockSuccess": "<:yes:1352711167830659092> {0} foram bloqueados nesse canal de voz.",
       "UnBlockNoneUser": "Nenhum usuário foi desbloqueado.",
-      "UnBlockLoading": "<a:loading:1352710970786582528> Desbloqueando **{0}** usuários, aguarde...",
-      "UnBlockSuccess": "<:yes:1352711167830659092> {0} foram desbloqueados nesse canal de voz.",
       "DeleteConfirm": "Tem certeza que deseja excluir o canal?",
       "HiddenLockReq": "O canal não está bloqueado ou oculto.",
       "DisconnectYouOwner": "Você não pode se desconectar, pois é o dono do canal.",
@@ -526,8 +563,6 @@
       "TrustLoading": "<a:loading:1352710970786582528> Adicionado passe livre em **{0}** usuários, aguarde...",
       "TrustSuccess": "<:yes:1352711167830659092> {0} receberam passe livre nesse canal de voz.",
       "UnTrustNoneUser": "Nenhum usuário teve o passe livre removido.",
-      "UnTrustLoading": "<a:loading:1352710970786582528> Removendo o passe livre de **{0}** usuários, aguarde...",
-      "UnTrustSuccess": "<:yes:1352711167830659092> {0} tiveram o passe livre removido desse canal de voz.",
       "MoreOptions": "Mais Opções",
       "CurrentOwner": "-# :crown: Dono do canal: {0}",
 
@@ -612,7 +647,7 @@
       "UserIsHigherBot": "**Meu cargo** deve ser **superior** ao cargo do membro que você quer banir.",
       "UserIsHigherYou": "**Seu cargo** deve ser **superior** ao cargo do membro que você quer banir.",
       "You": "É serio? Quer se banir do grupo? Não vai rolar!",
-      "UserAlreadyBanned": "**{0}** já está banido!\nMotivo:{1}",
+      "UserAlreadyBanned": "**{0}** já está banido!\nMotivo:{1}"
     },
     "Timeout": {
       "UserIsOwner": "Não posso castigar o dono do servidor.",
@@ -703,6 +738,49 @@
       "NotParticipate": "Você não participa deste jogo.",
       "UserBOT": "Os outros BOTs não podem jogar.",
       "UserYou": "Ué, vai jogar com você mesmo? Como?"
+    },
+    "ContainerCreate": {
+      "HeaderContainer": "## Criador de Container",
+      "DescriptionContainer": "Ei, tem alguma dúvida? Entre no servidor de suporte [Clicando aqui](https://discord.gg/fJrnPuP6w3)",
+      "HeaderNewContainer": "Novo Container",
+      "SelectContainerPlaceholder": "Selecione um container",
+      "AddComponent": "Novo Componente",
+      "AddComponentPlaceholder": "Adicionar Componente",
+      "EditComponentPlaceholder": "Editar Componente",
+
+      "SeparatorSmall": "Reduzir Espaçamento",
+      "SeparatorLarge": "Aumentar Espaçamento",
+      "SeparatorHidden": "Ocultar Linha",
+      "SeparatorShow": "Exibir Linha",
+
+      "TextDisplay": "Texto",
+      "TextDisplayPlaceholder": null,
+      "MediaGallery": "Galeria de Mídia",
+      "MediaGalleryPlaceholder": "Adicione até 10 url com quebra de linha (enter)\nMais opções no menu edição",
+      "AddMediaGalleryItem": "Adicionar Mídia",
+      "AddAcessoryThumbnail": "Adicionar Thumbnail",
+      "Separator": "Separador",
+      "Button": "Botão",
+      "ButtonCommand": "Botão (Comando)",
+      "ActionRow": "Linha de Botões",
+      "RowAddButton": "Adicionar Botão",
+      "RowAddButtonCommand": "Adicionar Botão (Comando)",
+      "Accessory": "Acessório",
+
+      "WebHookUrl": "WebHook Url",
+      "SendThisChannel": "Enviar aqui",
+      "SelectWebhook": "Selecione um WebHook",
+      "CreateWebhook": "Crie um WebHook nas configurações do canal",
+
+      "SendWebHookHeader": "Enviar Container",
+      "SendWebHookURL": "URL do WebHook",
+      "SendWebHookURLPlaceholder": "Crie um webhook nas configurações do canal de texto em Integrações, copie o URL e cole aqui",
+      "SendWebHookName": "Nome do WebHook",
+      "SendWebHookNamePlaceholder": "[Opcional] Nome de usuário do webhook",
+      "SendWebHookImageURL": "Imagem do WebHook",
+      "SendWebHookImageURLPlaceholder": "[Opcional] URL de uma imagem para ser o avatar do webhook",
+      "NotFlagComponentsV2": "Está mensagem não é suportada, talvez ela seja um embed.",
+      "Container": "Container {0}"
     }
   }
 }
