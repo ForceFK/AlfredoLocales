@@ -286,7 +286,7 @@
     },
     "Banner": {
       "BtnOpenExternal": "Open banner in browser",
-      "GlobalWarn": "This user has a banner\ncustom on the server.",
+      "GlobalWarn": "This user has a banner custom on the server.",
       "None": "No banner found."
     },
     "Clear": {
