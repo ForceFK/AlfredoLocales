@@ -387,13 +387,35 @@
       "UserIsBot": "{0} is a bot and therefore does not have a rank.",
       "UserNoRank": "{0} does not yet have a rank.",
       "YouNoRank": "You still don't have a rank, talk a little in some chat...",
-      "Description": ":medal: **Position Rank:** {0}º\n:star: **Level:** {1}\n:speech_balloon: **Menssage:** {2}",
+      "Description": ":medal: **Position Rank:** {0}º\n:star: **Level:** {1}\n:speech_balloon: **Menssage:** {2}\n:loud_sound: **Voice:** {3}",
       "HeaderProgress": ":arrow_up: **Progress** ({0}/{1} EXP)",
       "YouLevelNextReward": "-# Your next reward will be at level {0}"
     },
     "Leaderboard": {
-      "LevelsTitle": "Leaderboard Levels | Page {0}",
-      "LevelsField": "Level: {0} -  Exp: {1}"
+      "RankHeader": "Overall Rank | {0}",
+
+      "RankTypeGeneral": "Experiences",
+      "RankTypeGeneralDesc": "Accumulate EXP and dominate the ranking like a veteran!",
+      "RankTypeGeneralEmoji": ":star:",
+      "RankTypeGeneralValue": ":star:  **{0}**  EXPs  -  Level **{1}**",
+
+      "RankTypeVoice": "Voice Channel",
+      "RankTypeVoiceDesc": "Voice calls can be epic – or just pure chaos.",
+      "RankTypeVoiceEmoji": ":speaking_head:",
+      "RankTypeVoiceValue": ":speaking_head:  **{0}**  Minutes  (*{1}*)",
+
+      "RankTypeMessage": "Messages",
+      "RankTypeMessageDesc": "Every message counts... some more than others!",
+      "RankTypeMessageEmoji": ":speech_balloon:",
+      "RankTypeMessageValue": ":speech_balloon:  **{0}**  Messages",
+
+      "RankTypeCoins": "Coins",
+      "RankTypeCoinsDesc": "Wealth and strategy! Whoever has the most coins leads!",
+      "RankTypeCoinsEmoji": ":coin:",
+      "RankTypeCoinsValue": ":coin:  **{0}**  Coins",
+
+      "Page": "{0}",
+      "RankEmpty": "🚀 No one’s on this leaderboard yet..."
     },
     "Setup": {
       "DisableModule": "Disable Module",
@@ -405,6 +427,10 @@
     "SetupAutorole": {},
     "SetupLevels": {
       "Header": "SETUP | Levels by experience",
+      "EnableMessage": "Enable XP Messages",
+      "DisableMessage": "Disable XP Messages",
+      "EnableVoice": "Enable XP Voice",
+      "DisableVoice": "Disable XP Voice",
       "EmbedMainDescription": "XP Rate: `{0}x`\nRewards slot: `{1}/{2}`",
       "RewardsStyleFieldHeader": "Rewards style",
       "RemoveOldReward": "Remove previous rewards",
@@ -435,7 +461,7 @@
       "RateSelectVeryHardEXP": "Extremely difficult to pass the level",
       "RateSelectVeryEasyEXP": "Easy to pass the level",
       "RateSelectDoubleEXP": "Double the base XP",
-      "XPBaseInfo": "XP base: 15 to 25 (random)",
+      "XPBaseInfo": "XP base: 3 to 7 (random)",
       "MessageVariables": "`{user}` - User's server nickname or display name\n`{user.mention}` - Mention the user\n`{user.id}` - ID user\n`{level}` - Current level\n`{next.level}` - Next level\n`{xp}` - Experience  current\n`{rank.pos}` - Current in the server position rank\n`{next.level.xp}` - Total experience to the next level\n`{next.level.xp.required}` - Missing experience for the next level\n`{messages}` - Number of messages that generated experience",
       "ChangeChannel": "Change Channel",
       "ChangeMessage": "Personalize Menssages",
