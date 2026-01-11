@@ -576,7 +576,7 @@
       "LimitUserHeader": "Límite de usuarios",
       "LimitUserInput": "Informa la cantidad de miembros (0 - 99)",
       "LimitUserPlaceholder": "Deja en blanco o 0 para eliminar el límite",
-      "ClaimChannelTimeOut": "{0} Puedes reclamar el dueño nuevamente {0}.",
+      "ClaimChannelTimeOut": "{0} Puedes reclamar el dueño nuevamente {1}.",
       "ClaimChannelSuccess": "{0} ¡Canal reclamado exitosamente!",
       "ClaimChannelFail": "{0} El canal no puede ser reclamado.",
       "NewOwnerWarn": ":crown: Nuevo dueño del canal: {0}",

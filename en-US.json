@@ -581,7 +581,7 @@
       "LimitUserHeader": "User limit",
       "LimitUserInput": "Inform the number of members (0 - 99)",
       "LimitUserPlaceholder": "Leave blank or 0 to remove limit",
-      "ClaimChannelTimeOut": "{0} You can claim the owner again {0}.",
+      "ClaimChannelTimeOut": "{0} You can claim the owner again {1}.",
       "ClaimChannelSuccess": "{0} Channel claimed successfully!",
       "ClaimChannelFail": "{0} The channel cannot be claimed.",
       "NewOwnerWarn": ":crown: New channel owner: {0}",
