@@ -752,7 +752,8 @@
       "AddSuccessDuration": "Role {0} has been added to {1}!\nIt will be removed {2} ({3})",
       "RemoveSuccess": "Role {0} was removed from the {1}!",
       "FreeLimit": "You have reached the limit of **50** active temporary roles, please remove some or become **premium** and don't worry about limits!",
-      "AuditLogReasonTempRoleRemove": "Temporary Role"
+      "AuditLogReasonTempRoleRemove": "Temporary Role",
+      "AuditLogReasonTempRoleRestore": "Restoring temporary roles after returning to the server"
     },
     "Correios": {
       "RastrearNoneInfo": "Unable to display information for the given code.",

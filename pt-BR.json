@@ -757,7 +757,8 @@
       "AddSuccessDuration": "Cargo {0} foi adicionado ao {1}!\nSerá removido {2} ({3})",
       "RemoveSuccess": "Cargo {0} foi removido do {1}!",
       "FreeLimit": "Você alcançou o limite de **50** cargos temporários ativos, remova alguns ou se torne **premium** e não se preocupe com limites!",
-      "AuditLogReasonTempRoleRemove": "Cargo Temporário"
+      "AuditLogReasonTempRoleRemove": "Cargo Temporário",
+      "AuditLogReasonTempRoleRestore": "Restauração de cargos temporários após retorno ao servidor"
     },
     "Correios": {
       "RastrearNoneInfo": "Não é possível exibir informações para o código informado.",
